@@ -21,7 +21,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3151589566
 
 ## Launch Options
 
-`-skipintro -offline -RenderProfile_MaxFPS 60`
+`-skipintro -offline -RenderProfile_MaxFPS 165`
 
 
 `-skipintro`
@@ -40,9 +40,10 @@ Tried, had no effect for me.
 
 This method helps eliminate micro stuttering - especially with the DX11 executable - though this may be the result of combining with below-mentioned fixes & tweaks as well.
 
-The game can be rendered and displayed at 165+ FPS (tested myself), but the stutters/microstutters would happen more often and would be way more aggressive (165 to 32 FPS).
+The game can be rendered and displayed at 165+ FPS (tested myself), but the stutters/microstutters would happen more often and would be way more aggressive (165 to 32 FPS, if below-settings are not applied).
 
 
+This fixed the issue where NPCs shake/twitch randomly.
 
 
 
@@ -60,6 +61,8 @@ instert pc configuration
 
 ## My Config File
 
+
+Purpose: finding the balance - maximizing performance and minimizing stutters/microstutters, while keeping the game visually appealing and preserving its high-paced FPS nature.
 
 
 
