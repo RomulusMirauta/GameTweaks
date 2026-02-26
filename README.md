@@ -29,8 +29,15 @@ Skip game intro videos.
 
 
 `-offline`
-`-uplay_steam_mode `
-Tried, had no effect for me.
+Removes main menu features that are not available anymore: co-op, multiplayer, Uplay.
+*Official multiplayer features were disabled in v1.06. 
+
+*Community Revival (2026): As of February 2026, a dedicated community project via the Far Cry Discord has successfully "revived" the multiplayer. This allows players to access Co-op and Versus modes again, often requiring a small patch or specific files to redirect the game to community-hosted services.
+
+
+`-uplay_steam_mode`
+did nothing for me
+
 
 
 
