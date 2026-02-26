@@ -1,47 +1,53 @@
 
-# Game Fixes Repo
+# Game Tweaks Repo
 
+<br>
 
 # Table of Contents
 I. Far Cry 3
 
+<br>
 
+# I. Far Cry 3
 
-# Far Cry 3
+## Links and credits:
+- https://store.steampowered.com/app/220240/Far_Cry_3/
+- https://www.pcgamingwiki.com/wiki/Far_Cry_3
+- https://steamcommunity.com/sharedfiles/filedetails/?id=3151589566
+- https://www.reddit.com/r/farcry/comments/1err2t6/far_cry_3_fix_random_crashing_and_other_errors_on/
+- https://steamcommunity.com/sharedfiles/filedetails/?id=3348375844
+- https://www.reddit.com/r/farcry/comments/2nhmzq/psa_this_seriously_fixed_999_of_my_stuttering/
+- https://www.reddit.com/r/farcry/comments/2ncqk0/how_to_get_quality_textures_without_the_stuttering/
 
-Links and credits:
-https://store.steampowered.com/app/220240/Far_Cry_3/
-https://www.pcgamingwiki.com/wiki/Far_Cry_3
-https://steamcommunity.com/sharedfiles/filedetails/?id=3151589566
-
-
-
-
-
+<br>
 
 ## Launch Options
 
+\GameTweaks\FarCry3\SSs\LaunchOptions.jpg
+
 `-skipintro -offline -RenderProfile_MaxFPS 165`
 
+Command-line argument
 
-`-skipintro`
-Skip game intro videos.
-
-
-`-offline`
-Removes main menu features that are not available anymore: co-op, multiplayer, Uplay.
-*Official multiplayer features were disabled in v1.06. 
-
-*Community Revival (2026): As of February 2026, a dedicated community project via the Far Cry Discord has successfully "revived" the multiplayer. This allows players to access Co-op and Versus modes again, often requiring a small patch or specific files to redirect the game to community-hosted services.
+- `-skipintro`
+	Skip game intro videos.
 
 
-`-uplay_steam_mode`
-did nothing for me
+- `-offline`
+	Removes main menu features that are not available anymore: co-op, multiplayer, Uplay.
+
+[!Note]
+> Official multiplayer features were disabled in v1.06.
+> Community Revival (2026): As of February 2026, a dedicated community project via the Far Cry Discord has successfully "revived" the multiplayer. This allows players to access Co-op and Versus modes again, often requiring a small patch or specific files to redirect the game to community-hosted services.
 
 
+- `-RenderProfile_MaxFPS X` 
+	Forces the game to render at a maximum of *X* FPS.
 
 
-`-RenderProfile_MaxFPS X` command-line argument
+- `-uplay_steam_mode`
+	*did nothing for me
+
 
 `X` is the preferred max FPS.
 
@@ -64,9 +70,21 @@ instert pc configuration
 
 
 
-
+<br>
 
 ## My Config File
+
+
+Config file location: `Documents\Far Cry 3\`
+File name: `GamerProfile.xml`
+
+
+My config file: [GamerProfile.xml](GameTweaks\FarCry3\GamerProfile.xml)
+Config file in "compatibility mode" (with all the tweaks applied): [[COMPATIBILITY]GamerProfile.xml](GameTweaks\FarCry3\[COMPATIBILITY]GamerProfile.xml)
+
+
+
+
 
 
 Purpose: finding the balance - maximizing performance and minimizing stutters/microstutters, while keeping the game visually appealing and preserving its high-paced FPS nature.
@@ -106,7 +124,7 @@ Unfortunately, it will not remove the aiming-down sights blur.
 
 
 
-
+<br>
 
 ## Tools and Tweaks
 
@@ -121,7 +139,7 @@ Tool that assists in making applications LAA (large address aware). When a 32-bi
 https://www.techpowerup.com/forums/threads/large-address-aware.112556/
 
 
-
+<br>
 
 ### Process Lasso (Bitsum)
 
@@ -136,7 +154,7 @@ https://bitsum.com/
 
 
 
-
+<br>
 
 ### NVIDIA Profile Inspector
 
