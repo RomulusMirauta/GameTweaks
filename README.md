@@ -130,7 +130,7 @@ VSync can help, but also adds some input lag.
 
 Explanations for the most important tweaks:
 
-- ```.xml
+```.xml
 	<Post>
 		<quality GameDepthOfField="0" CinematicDepthOfField="0" MotionBlur="0" FXAALevel="0" id="ultrahigh" />
 	</Post>
@@ -145,14 +145,13 @@ FXAA = Fast Approximate Anti-Aliasing is a post-processing technique used to red
 0: Disables the effect entirely, which can improve performance and reduce visual clutter, especially in fast-paced action scenes. However, it may also make the game look less cinematic and immersive.
 1: Enables the effect, which can provide a subtle improvement in visual quality, at the cost of performance.
 
-`id="x"`
-The values can be: `low`, `medium`, `high`, `veryhigh` or `ultrahigh` (depends on the quality preset you choose in the game settings); if set to `custom`, the blur will remain visible.
-
-This also removes the blur that appears when driving.
+`id="x"` <br>
+The values can be: `low`, `medium`, `high`, `veryhigh` or `ultrahigh` (depends on the quality preset you choose in the game settings); if set to `custom`, the blur will remain visible. <br>
+This also removes the blur that appears when driving. <br>
 Unfortunately, it will not remove the aiming-down sights blur.
 
 
-- `SSAOLevel="x"`
+- `SSAOLevel="x"` <br>
 SSAO = Screen Space Ambient Occlusion = a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It adds depth and realism to the scene by simulating the way light interacts with objects, creating soft shadows in crevices and corners where light is occluded.
 
 The values can be: `0`, `1`, `2` or `3` 
@@ -162,14 +161,16 @@ The values can be: `0`, `1`, `2` or `3`
 3: HDAO (High Definition Ambient Occlusion) - the most advanced method, but also the most performance-intensive. It provides the best visual quality by simulating more accurate occlusion effects, but it can significantly impact performance on lower-end hardware.
 
 
-- `D3D11MultithreadedRendering="x"` 
-Multi-Threaded Rendering = A setting that allows the game to utilize multiple CPU threads for rendering tasks. This can help improve performance by distributing the workload across multiple cores, especially on systems with high core counts. However, it can also introduce instability and cause crashes on some systems, particularly if the game is not optimized for multithreaded rendering or if there are compatibility issues with certain hardware configurations.
+- `D3D11MultithreadedRendering="x"` <br>
+Multi-Threaded Rendering = A setting that allows the game to utilize multiple CPU threads for rendering tasks. This can help improve performance by distributing the workload across multiple cores, especially on systems with high core counts. However, it can also introduce instability and cause crashes on some systems, particularly if the game is not optimized for multithreaded rendering or if there are compatibility issues with certain hardware configurations. <br>
 Although it makes the game run way faster/feel more like a highpaced-FPS, it has caused a lot of random, frequent crashes. Therefore, I recommend `D3D11MultithreadedRendering="0"`
 
 
-DisableMip0Loading = Disables the loading of the highest quality mipmap level (mip0) for textures. This can help improve performance by reducing the amount of memory used for textures, but it may also result in lower visual quality, especially when viewing objects up close. It can be useful for players with lower-end hardware or those looking to maximize performance, but it may not be ideal for those who prioritize visual fidelity.
+- DisableMip0Loading="x" <br>
+Disables the loading of the highest quality mipmap level (mip0) for textures. This can help improve performance by reducing the amount of memory used for textures, but it may also result in lower visual quality, especially when viewing objects up close. It can be useful for players with lower-end hardware or those looking to maximize performance, but it may not be ideal for those who prioritize visual fidelity.
 
-AllowAsynchShaderLoading = Enables asynchronous loading of shaders, which can help reduce stuttering and improve performance by allowing the game to load shaders in the background while you play. This can be especially beneficial for players with slower storage devices or those who experience frequent stuttering due to shader loading. However, it may also cause some visual glitches or delays in shader loading, so it may not be ideal for all players.
+- AllowAsynchShaderLoading = "x" <br>
+Enables asynchronous loading of shaders, which can help reduce stuttering and improve performance by allowing the game to load shaders in the background while you play. This can be especially beneficial for players with slower storage devices or those who experience frequent stuttering due to shader loading. However, it may also cause some visual glitches or delays in shader loading, so it may not be ideal for all players.
 
 
 <br>
