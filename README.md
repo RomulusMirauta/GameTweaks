@@ -21,7 +21,7 @@ I. [Far Cry 3](#i-far-cry-3)
 
 <br>
 
-## Launch Options
+## I. a. Launch Options
 
 <!-- \GameTweaks\FarCry3\SSs\LaunchOptions.jpg -->
 
@@ -37,7 +37,7 @@ Command-line argument
 	Removes main menu features that are not available anymore: co-op, multiplayer, Uplay.
 
 > [!Note]
-> Official multiplayer features were disabled in v1.06.
+> Official multiplayer features were disabled in v1.06. <br>
 > Community Revival (2026): As of February 2026, a dedicated community project via the Far Cry Discord has successfully "revived" the multiplayer. This allows players to access Co-op and Versus modes again, often requiring a small patch or specific files to redirect the game to community-hosted services.
 
 
@@ -110,7 +110,7 @@ Tested the game tweaks mentioned in this repo on PC configuration with the follo
 <br>
 
 
-## My Config File
+## I. b. My Config File
 
 <!-- \GameTweaks\FarCry3\SSs\.jpg -->
 
@@ -181,7 +181,7 @@ Enables asynchronous loading of shaders, which can help reduce stuttering and im
 <br>
 
 
-## Tools and Tweaks
+## I. c. Tools and Tweaks
 
 ### Large Address Aware (TechPowerUp)
 
@@ -262,14 +262,14 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 <br>
 
 > [!Note]
-> Regarding removing Uplay necessity - tried multiple methods - had no joy with any of them.
+> Regarding removing Uplay necessity - tried multiple methods - had no joy with any of them. <br>
 > Decided to not MOD the game, even if some have fixes as well - at least not this time (maybe on the 1.000th playthrough). Main reason: most MODS affect the core gameplay. 
 
 
 <br>
 
 
-## Other tweaks
+## I. d. Other tweaks
 
 ### NVIDIA Control Panel
 
