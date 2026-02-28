@@ -1,10 +1,9 @@
-
 # Game Tweaks Repo
 
 <br>
 
 # Table of Contents
-I. Far Cry 3
+I. [Far Cry 3](#i-far-cry-3)
 
 <br>
 
@@ -24,7 +23,7 @@ I. Far Cry 3
 
 ## Launch Options
 
-\GameTweaks\FarCry3\SSs\LaunchOptions.jpg
+<!-- \GameTweaks\FarCry3\SSs\LaunchOptions.jpg -->
 
 `-skipintro -offline -RenderProfile_MaxFPS 165`
 
@@ -110,12 +109,13 @@ Tested the game tweaks mentioned in this repo on PC configuration with the follo
 
 <br>
 
+
 ## My Config File
 
+<!-- \GameTweaks\FarCry3\SSs\.jpg -->
 
 Config file location: `Documents\Far Cry 3\`
 File name: `GamerProfile.xml`
-
 
 My config file: [GamerProfile.xml](GameTweaks\FarCry3\GamerProfile.xml) <br>
 Config file in *"compatibility mode"* (only with safe-for-all-systems tweaks applied): [[COMPATIBILITY]GamerProfile.xml](GameTweaks\FarCry3\[COMPATIBILITY]GamerProfile.xml)
@@ -150,6 +150,7 @@ The values can be: `low`, `medium`, `high`, `veryhigh` or `ultrahigh` (depends o
 This also removes the blur that appears when driving. <br>
 Unfortunately, it will not remove the aiming-down sights blur.
 
+<br>
 
 - `SSAOLevel="x"` <br>
 SSAO = Screen Space Ambient Occlusion = a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It adds depth and realism to the scene by simulating the way light interacts with objects, creating soft shadows in crevices and corners where light is occluded.
@@ -172,6 +173,10 @@ Disables the loading of the highest quality mipmap level (mip0) for textures. Th
 - AllowAsynchShaderLoading = "x" <br>
 Enables asynchronous loading of shaders, which can help reduce stuttering and improve performance by allowing the game to load shaders in the background while you play. This can be especially beneficial for players with slower storage devices or those who experience frequent stuttering due to shader loading. However, it may also cause some visual glitches or delays in shader loading, so it may not be ideal for all players.
 
+[!Note]
+> In order to edit the config file, remove the "read-only" attribute from the file properties. <br>
+> After editing, set it back to "read-only" to prevent accidental changes and alterations made by the game.
+
 
 <br>
 
@@ -179,6 +184,8 @@ Enables asynchronous loading of shaders, which can help reduce stuttering and im
 ## Tools and Tweaks
 
 ### Large Address Aware (TechPowerUp)
+
+<!-- \GameTweaks\FarCry3\SSs\.jpg -->
 
 It seems that, by default, the games only uses 2 GB OF RAM (even if you have 32+ GB) - at least on newer PC configurations and new Windows versions.
 This causes performance issues, and in my case even *frequent* crashes.
@@ -207,6 +214,8 @@ Requirements:
 
 ### Process Lasso (Bitsum)
 
+<!-- \GameTweaks\FarCry3\SSs\.jpg -->
+
 It seems that, by default, the games only uses 2 cores (even if your CPU has 24 cores!) - at least on newer PC configurations.
 This causes performance issues, and in my case even *frequent* crashes.
 
@@ -226,6 +235,8 @@ We can force the game to utilize 4 cores, by following these steps:
 
 
 ### NVIDIA Profile Inspector
+
+<!-- \GameTweaks\FarCry3\SSs\.jpg -->
 
 Tool used for modifying game profiles inside the internal driver database of the NVIDIA driver. All game profiles are provided by the nvidia driver, but you can add your own profiles for games missing in the driver database. You also have access to hidden and undocumented settings, which are not provided by the drivers control panel - nvidiaProfileInspector
 https://github.com/Orbmu2k/nvidiaProfileInspector
@@ -255,10 +266,14 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 > Decided to not MOD the game, even if some have fixes as well - at least not this time (maybe on the 1.000th playthrough). Main reason: most MODS affect the core gameplay. 
 
 
+<br>
+
 
 ## Other tweaks
 
 ### NVIDIA Control Panel
+
+<!-- \GameTweaks\FarCry3\SSs\.jpg -->
 
 - Anisotropic Filtering: 8x
 
