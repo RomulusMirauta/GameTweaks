@@ -6,11 +6,11 @@ This repository is a collection of various tweaks, configuration tips, and tools
 
 # Table of Contents
 I. [Far Cry 3](#i-far-cry-3) <br>
-&nbsp;&nbsp;I .a. [Links and credits](#i-a-links-and-credits) <br>
-&nbsp;&nbsp;I .b. [Launch Options](#i-b-launch-options) <br>
-&nbsp;&nbsp;I .c. [My Config File](#i-c-my-config-file) <br>
-&nbsp;&nbsp;I .d. [Tools and Tweaks](#i-d-tools-and-tweaks) <br>
-&nbsp;&nbsp;I .e. [Other tweaks](#i-e-other-tweaks)
+&nbsp;&nbsp;&nbsp; I .a. [Links and credits](#i-a-links-and-credits) <br>
+&nbsp;&nbsp;&nbsp; I .b. [Launch Options](#i-b-launch-options) <br>
+&nbsp;&nbsp;&nbsp; I .c. [My Config File](#i-c-my-config-file) <br>
+&nbsp;&nbsp;&nbsp; I .d. [Tools and Tweaks](#i-d-tools-and-tweaks) <br>
+&nbsp;&nbsp;&nbsp; I .e. [Other tweaks](#i-e-other-tweaks)
 
 <br>
 
