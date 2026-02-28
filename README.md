@@ -167,10 +167,10 @@ Multi-Threaded Rendering = A setting that allows the game to utilize multiple CP
 Although it makes the game run way faster/feel more like a highpaced-FPS, it has caused a lot of random, frequent crashes. Therefore, I recommend `D3D11MultithreadedRendering="0"`
 
 
-- DisableMip0Loading="x" <br>
+- `DisableMip0Loading="x"` <br>
 Disables the loading of the highest quality mipmap level (mip0) for textures. This can help improve performance by reducing the amount of memory used for textures, but it may also result in lower visual quality, especially when viewing objects up close. It can be useful for players with lower-end hardware or those looking to maximize performance, but it may not be ideal for those who prioritize visual fidelity.
 
-- AllowAsynchShaderLoading = "x" <br>
+- `AllowAsynchShaderLoading = "x"` <br>
 Enables asynchronous loading of shaders, which can help reduce stuttering and improve performance by allowing the game to load shaders in the background while you play. This can be especially beneficial for players with slower storage devices or those who experience frequent stuttering due to shader loading. However, it may also cause some visual glitches or delays in shader loading, so it may not be ideal for all players.
 
 [!Note]
