@@ -1,15 +1,22 @@
 # Game Tweaks Repo
 
+This repository is a collection of various tweaks, configuration tips, and tools focused on improving performance, stability, and visual quality for games. The goal is to provide a single reference for settings adjustments, launch options, and third-party utilities that can help players get the most out of their systems while playing older or demanding titles. Contributions and updates for other games are welcome as the collection grows.
+
 <br>
 
 # Table of Contents
-I. [Far Cry 3](#i-far-cry-3)
+I. [Far Cry 3](#i-far-cry-3) <br>
+&nbsp;&nbsp;I .a. [Links and credits](#i-a-links-and-credits) <br>
+&nbsp;&nbsp;I .b. [Launch Options](#i-b-launch-options) <br>
+&nbsp;&nbsp;I .c. [My Config File](#i-c-my-config-file) <br>
+&nbsp;&nbsp;I .d. [Tools and Tweaks](#i-d-tools-and-tweaks) <br>
+&nbsp;&nbsp;I .e. [Other tweaks](#i-e-other-tweaks)
 
 <br>
 
 # I. Far Cry 3
 
-## Links and credits:
+## I. a. Links and credits:
 - https://store.steampowered.com/app/220240/Far_Cry_3/
 - https://www.pcgamingwiki.com/wiki/Far_Cry_3
 - https://steamcommunity.com/sharedfiles/filedetails/?id=3151589566
@@ -21,7 +28,7 @@ I. [Far Cry 3](#i-far-cry-3)
 
 <br>
 
-## I. a. Launch Options
+## I. b. Launch Options
 
 <!-- \GameTweaks\FarCry3\SSs\LaunchOptions.jpg -->
 
@@ -63,8 +70,6 @@ Tested the game tweaks mentioned in this repo on PC configuration with the follo
   </tr>
   <tr>
     <td rowspan="9"> 
-		<a href="https://www.pcgamebenchmark.com/ratemypc?cpu=intel-core-i9-12900k&memory=32gb&gpu=nvidia-geforce-rtx-3080&platform=windows">
-		<!-- <img src="https://cdn.pcgamebenchmark.com/signature/intel-core-i9-12900k/32/nvidia-geforce-rtx-3080/large.png" -->
 		<img src="https://www.pcgamebenchmark.com/signature/intel-core-i9-12900k/32gb/nvidia-geforce-rtx-3080/twitch.png" 
 			alt="PCGameBenchmark" style="width: auto; height: auto; max-width: 100%; max-height: 100%;" />
 		</a>
@@ -110,7 +115,7 @@ Tested the game tweaks mentioned in this repo on PC configuration with the follo
 <br>
 
 
-## I. b. My Config File
+## I. c. My Config File
 
 <!-- \GameTweaks\FarCry3\SSs\.jpg -->
 
@@ -181,7 +186,7 @@ Enables asynchronous loading of shaders, which can help reduce stuttering and im
 <br>
 
 
-## I. c. Tools and Tweaks
+## I. d. Tools and Tweaks
 
 ### Large Address Aware (TechPowerUp)
 
@@ -269,7 +274,7 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 <br>
 
 
-## I. d. Other tweaks
+## I. e. Other tweaks
 
 ### NVIDIA Control Panel
 
