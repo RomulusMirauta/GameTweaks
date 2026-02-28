@@ -36,7 +36,7 @@ Command-line argument
 - `-offline`
 	Removes main menu features that are not available anymore: co-op, multiplayer, Uplay.
 
-[!Note]
+> [!Note]
 > Official multiplayer features were disabled in v1.06.
 > Community Revival (2026): As of February 2026, a dedicated community project via the Far Cry Discord has successfully "revived" the multiplayer. This allows players to access Co-op and Versus modes again, often requiring a small patch or specific files to redirect the game to community-hosted services.
 
@@ -117,8 +117,8 @@ Tested the game tweaks mentioned in this repo on PC configuration with the follo
 Config file location: `Documents\Far Cry 3\`
 File name: `GamerProfile.xml`
 
-My config file: [GamerProfile.xml](GameTweaks\FarCry3\GamerProfile.xml) <br>
-Config file in *"compatibility mode"* (only with safe-for-all-systems tweaks applied): [[COMPATIBILITY]GamerProfile.xml](GameTweaks\FarCry3\[COMPATIBILITY]GamerProfile.xml)
+My config file: [GamerProfile.xml](./FarCry3/GamerProfile.xml) <br>
+Config file in *"compatibility mode"* (only with safe-for-all-systems tweaks applied): [[COMPATIBILITY]GamerProfile.xml](./FarCry3/[COMPATIBILITY]GamerProfile.xml)
 
 Purpose: finding the balance - maximizing performance and minimizing stutters/microstutters, while keeping the game visually appealing and preserving its high-paced FPS nature.
 
@@ -173,7 +173,7 @@ Disables the loading of the highest quality mipmap level (mip0) for textures. Th
 - `AllowAsynchShaderLoading = "x"` <br>
 Enables asynchronous loading of shaders, which can help reduce stuttering and improve performance by allowing the game to load shaders in the background while you play. This can be especially beneficial for players with slower storage devices or those who experience frequent stuttering due to shader loading. However, it may also cause some visual glitches or delays in shader loading, so it may not be ideal for all players.
 
-[!Note]
+> [!Note]
 > In order to edit the config file, remove the "read-only" attribute from the file properties. <br>
 > After editing, set it back to "read-only" to prevent accidental changes and alterations made by the game.
 
@@ -261,7 +261,7 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 
 <br>
 
-[!Note]
+> [!Note]
 > Regarding removing Uplay necessity - tried multiple methods - had no joy with any of them.
 > Decided to not MOD the game, even if some have fixes as well - at least not this time (maybe on the 1.000th playthrough). Main reason: most MODS affect the core gameplay. 
 
