@@ -1,14 +1,14 @@
 <GamerProfile>
-	<SoundProfile MusicEnabled="1" MasterVolume="100" MicEnabled="0" IncomingVoiceEnabled="0" Language="English" />
+	<SoundProfile MusicEnabled="1" MasterVolume="100" MicEnabled="1" IncomingVoiceEnabled="1" Language="English" />
 	<RenderProfile MSAALevel="8" AlphaToCoverage="2" SSAOLevel="3" SDSM="0" ResolutionX="1920" ResolutionY="1080" Quality="custom" QualityEditor="editor_ps3" Fullscreen="1" Borderless="1" UseD3D11="1" D3D11MultithreadedRendering="0" WidescreenLetterbox="0" UseWidescreenFOV="1" FOVScaleFactor="0.9975" EnableSubResolution="0" SubResolutionX="960" SubResolutionY="540" VSync="0" RefreshRate="0" DisableMip0Loading="0" GPUMaxBufferedFrames="2" ShowFPS="0" Brightness="1" Contrast="1" GammaRamp="1" AllowAsynchShaderLoading="1">
 		<CustomQuality>
-			<quality ResolutionX="1920" ResolutionY="1080" EnvironmentQuality="high" AntiPortalQuality="default" PortalQuality="high" PostFxQuality="ultrahigh" TextureQuality="high" TextureResolutionQuality="high" WaterQuality="veryhigh" DepthPassQuality="high" VegetationQuality="veryhigh" TerrainQuality="high" GeometryQuality="ultrahigh" AmbientQuality="high" DeferredAmbientQuality="high" ShadowQuality="ultrahigh" EditorQuality="" Hdr="1" HdrFP32="0" ReflectionHdr="1" EnableVertexBinding="1" id="custom" />
+			<quality ResolutionX="1280" ResolutionY="720" EnvironmentQuality="high" AntiPortalQuality="default" PortalQuality="medium" PostFxQuality="ultrahigh" TextureQuality="high" TextureResolutionQuality="high" WaterQuality="veryhigh" DepthPassQuality="high" VegetationQuality="veryhigh" TerrainQuality="high" GeometryQuality="ultrahigh" AmbientQuality="high" DeferredAmbientQuality="high" ShadowQuality="ultrahigh" EditorQuality="" Hdr="1" HdrFP32="0" ReflectionHdr="1" EnableVertexBinding="1" id="custom" />
 		</CustomQuality>
 		<Post>
      		<quality GameDepthOfField="0" CinematicDepthOfField="0" MotionBlur="0" FXAALevel="0" id="ultrahigh" />
    		</Post>
 	</RenderProfile>
-	<NetworkProfile VoiceChatEnabled="0" CustomMapMaxUploadRateInBitsOnline="10240000" OnlineEnginePort="9000" OnlineServicePort="9001" FileTransferHostPort="9002" FileTransferClientPort="9003" LanHostBroadcastPort="9004" LanClientBroadcastPort="9005" ScanFreePorts="0" ScanPortRange="1000" ScanPortStart="9000" SessionProvider="" MaxUploadInbpsOnline="10240000">
+	<NetworkProfile VoiceChatEnabled="1" CustomMapMaxUploadRateInBitsOnline="10240000" OnlineEnginePort="9000" OnlineServicePort="9001" FileTransferHostPort="9002" FileTransferClientPort="9003" LanHostBroadcastPort="9004" LanClientBroadcastPort="9005" ScanFreePorts="0" ScanPortRange="1000" ScanPortStart="9000" SessionProvider="" MaxUploadInbpsOnline="10240000">
 		<Accounts />
 	</NetworkProfile>
 	<GameProfile />
