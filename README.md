@@ -15,7 +15,7 @@
 
 # Table of Contents
 I. &nbsp;&nbsp; [Far Cry 3](#i-far-cry-3) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. a. &nbsp; [Links and credits](#i-a-links-and-credits) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. a. &nbsp; [Links and Credits](#i-a-links-and-credits) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. b. &nbsp; [Launch Options](#i-b-launch-options) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. c. &nbsp; [Config Files](#i-c-config-files) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. d. &nbsp; [Main Tools and Tweaks](#i-d-main-tools-and-tweaks) <br>
@@ -25,7 +25,11 @@ I. &nbsp;&nbsp; [Far Cry 3](#i-far-cry-3) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. e. &nbsp; [Other tweaks](#i-e-other-tweaks) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Control Panel](#nvidia-control-panel) <br>
 II. &nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) <br>
-III. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; II. a. &nbsp; [Links](#ii-a-links) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; II. b. &nbsp; [Tweaks and Mods](#ii-b-tweaks-and-mods) <br>
+III. &nbsp; [Mirror's Edge](#iii-mirrors-edge) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; III. a. &nbsp; [Links](#iii-a-links) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; III. b. &nbsp; [Tweaks](#iii-b-tweaks) <br>
 
 
 <br><br>
@@ -34,7 +38,7 @@ III.
 # I. Far Cry 3
 
 
-## I. a. Links and credits
+## I. a. Links and Credits
 
 ### Steam & Steam Community Guides and Discussions
 - https://store.steampowered.com/app/220240/Far_Cry_3/
@@ -453,12 +457,9 @@ However, it may not be ideal for all players, as it can introduce some visual ar
 
 # II. Burnout Paradise Remastered
 
-## Links:
+## II. a. Links
 
-### Steam
 - https://store.steampowered.com/app/1238080/Burnout_Paradise_Remastered/
-
-### PCGamingWiki
 - https://www.pcgamingwiki.com/wiki/Burnout_Paradise_Remastered
 
 <br>
@@ -468,9 +469,9 @@ https://github.com/RomulusMirauta/Burnout-Paradise-Remastered
 
 <br>
 
-## Tweaks and Mods
+## II. b. Tweaks and Mods
 
-The tweaks and mods that made my experience with the game way better, and that I recommend to everyone are:
+The tweaks and mods that made my game experience way better, and that I highly recommend:
 - Steam Launch Options: 
 
   ```.launchoptions
@@ -488,6 +489,27 @@ The tweaks and mods that made my experience with the game way better, and that I
   - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
   - [NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
 
+
+
 <br><br><br>
 
-# III. 
+
+
+# III. Mirror's Edge
+
+## III. a. Links
+- https://store.steampowered.com/app/17410/Mirrors_Edge/
+- https://www.pcgamingwiki.com/wiki/Mirror%27s_Edge
+
+<br>
+
+## III. b. Tweaks
+
+The tweaks and mods that made my experience with the game way better, and that I recommend to everyone are:
+- Steam Launch Options: 
+
+  ```.launchoptions
+  -nostartupmovies
+  ```
+
+- [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
