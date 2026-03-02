@@ -25,6 +25,7 @@ I. &nbsp;&nbsp; [Far Cry 3](#i-far-cry-3) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. e. &nbsp; [Other tweaks](#i-e-other-tweaks) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Control Panel](#nvidia-control-panel) <br>
 II. &nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) <br>
+III. 
 
 
 <br><br>
@@ -452,10 +453,22 @@ However, it may not be ideal for all players, as it can introduce some visual ar
 
 # II. Burnout Paradise Remastered
 
+## Links:
+
+### Steam
+- https://store.steampowered.com/app/1238080/Burnout_Paradise_Remastered/
+
+### PCGamingWiki
+- https://www.pcgamingwiki.com/wiki/Burnout_Paradise_Remastered
+
+<br>
+
 Centralized repository of INFO, MODS, PATCHES and TOOLS for the game Burnout Paradise Remastered (PC version): <br>
 https://github.com/RomulusMirauta/Burnout-Paradise-Remastered
 
 <br>
+
+## Tweaks and Mods
 
 The tweaks and mods that made my experience with the game way better, and that I recommend to everyone are:
 - Steam Launch Options: 
@@ -474,3 +487,7 @@ The tweaks and mods that made my experience with the game way better, and that I
   - [Large Address Aware (TechPowerUp)](#large-address-aware-techpowerup) <br>
   - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
   - [NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
+
+<br><br><br>
+
+# III. 
