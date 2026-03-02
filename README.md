@@ -166,16 +166,21 @@ Tested the game tweaks mentioned in this repo on `W11 25H2` and PC configuration
 ![Media](/FarCry3/media/VSCode(2).png)
 <br><br>
 
-Config file location: `%USERPROFILE%\Documents\Far Cry 3\` <br>
-File name: `GamerProfile.xml`
+Config file location: <br>
+`%USERPROFILE%\Documents\Far Cry 3\` <br>
 
-My config file: [GamerProfile.xml](./FarCry3/GamerProfile.xml) <br>
-Config file in *"compatibility mode"* (only with safe-for-all-systems tweaks applied): [[COMPATIBILITY]GamerProfile.xml](./FarCry3/[COMPATIBILITY]GamerProfile.xml)
+File name: <br>
+`GamerProfile.xml`<br><br>
+
+
+You can download the config files from here: <br>
+- My config file: [GamerProfile.xml](./FarCry3/GamerProfile.xml) <br>
+- Config file in *"compatibility mode"* (only with safe-for-all-systems tweaks applied): [[COMPATIBILITY]GamerProfile.xml](./FarCry3/[COMPATIBILITY]GamerProfile.xml)<br><br>
 
 Purpose: finding the balance - maximizing performance and minimizing stutters/microstutters, while keeping the game visually appealing and preserving its high-paced FPS nature.
 
-VSync can help, but also adds some input lag.
-
+> [!TIP]
+> VSync can help, but also adds some input lag.
 
 <br>
 
@@ -387,6 +392,7 @@ Vertical sync = a display option that synchronizes the frame rate of the game wi
 >[!Note]
 > Other tweaks that I have applied to the game, but are not mentioned in this repo, are either not safe for all systems (can cause crashes) or do not have a significant impact on performance and/or visual quality.
 
+<br><br>
 
 # II. Burnout Paradise Remastered
 
