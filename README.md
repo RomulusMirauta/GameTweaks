@@ -60,11 +60,17 @@ III. &nbsp; [Mirror's Edge](#iii-mirrors-edge) <br>
 - https://github.com/Orbmu2k/nvidiaProfileInspector
 
 
+### Microsoft
+- https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install
+
+
 ### CoderBag
 - https://www.coderbag.com/Programming-C/Disable-CPU-Core-Parking-Utility
 
+
 ### Bitsum
 - https://bitsum.com/
+
 
 ### TechPowerUp
 - https://www.techpowerup.com/forums/threads/large-address-aware.112556/
