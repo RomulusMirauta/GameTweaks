@@ -420,7 +420,8 @@ In this case, setting it to "G-SYNC Compatible" can help reduce screen tearing a
 - Power management mode: Use global setting (On) = Prefer maximum performance <br><br>
 Power management mode is a setting that allows you to specify how the graphics card manages its power consumption. <br><br>
 Setting it to "Use global setting (On)" allows the game to utilize the global power management settings specified in the NVIDIA Control Panel. <br><br>
-In this case, setting it to "Prefer maximum performance" can help ensure that the graphics card runs at its maximum performance level while playing the game, which can help improve frame rates and reduce stuttering, especially on systems that may struggle to maintain a consistent frame rate. However, it may also result in increased power consumption and heat generation, so it may not be ideal for all players or hardware configurations. <br><br><br>
+In this case, setting it to "Prefer maximum performance" can help ensure that the graphics card runs at its maximum performance level while playing the game, which can help improve frame rates and reduce stuttering, especially on systems that may struggle to maintain a consistent frame rate. <br><br>
+However, it may also result in increased power consumption and heat generation, so it may not be ideal for all players or hardware configurations. <br><br><br>
 
 - Texture filtering - Anisotropic sample optimization: On<br><br>
 Texture filtering is a technique used to improve the quality of textures when they are viewed at different angles and distances. <br><br>
