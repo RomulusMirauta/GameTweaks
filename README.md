@@ -80,7 +80,7 @@ II. &nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) <br>
 <br> -->
 
 ![Media](/FarCry3/media/SteamLaunchOptions(2).gif)
-<br>
+<br><br>
 
 Command-line arguments:
 
@@ -164,7 +164,7 @@ Tested the game tweaks mentioned in this repo on `W11 25H2` and PC configuration
 <br> -->
 
 ![Media](/FarCry3/media/VSCode(2).png)
-<br>
+<br><br>
 
 Config file location: `%USERPROFILE%\Documents\Far Cry 3\` <br>
 File name: `GamerProfile.xml`
@@ -244,11 +244,11 @@ Enables asynchronous loading of shaders, which can help reduce stuttering and im
 ![Media](/FarCry3/media/LargeAddressAware(1).gif)
 <br>
 
-![Media](/FarCry3/media/LargeAddressAware(2).gif)
-<br>
+<!-- ![Media](/FarCry3/media/LargeAddressAware(2).gif)
+<br> -->
 
-![Media](/FarCry3/media/LargeAddressAware(3).gif)
-<br>
+<!-- ![Media](/FarCry3/media/LargeAddressAware(3).gif)
+<br> -->
 
 It seems that, by default, the games only uses 2 GB OF RAM ***(even if you have 32+ GB)*** - at least on newer PC configurations and new Windows versions.
 This causes performance issues, and in my case even *frequent* crashes.
