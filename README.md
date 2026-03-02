@@ -76,8 +76,8 @@ II. &nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) <br>
 
 <br>
 
-![Media](/FarCry3/media/SteamLaunchOptions(1).gif)
-<br>
+<!-- ![Media](/FarCry3/media/SteamLaunchOptions(1).gif)
+<br> -->
 
 ![Media](/FarCry3/media/SteamLaunchOptions(2).gif)
 <br>
@@ -160,8 +160,8 @@ Tested the game tweaks mentioned in this repo on `W11 25H2` and PC configuration
 
 ## I. c. My Config File
 
-![Media](/FarCry3/media/VSCode(1).png)
-<br>
+<!-- ![Media](/FarCry3/media/VSCode(1).png)
+<br> -->
 
 ![Media](/FarCry3/media/VSCode(2).png)
 <br>
@@ -184,47 +184,50 @@ Explanations for the most important tweaks:
 
 - added lines to the config file *(which are not present in the default one)*
 
-```.xml
-<Post>
-  <quality GameDepthOfField="0" CinematicDepthOfField="0" MotionBlur="0" FXAALevel="0" id="ultrahigh" />
-</Post>
-```
+  ```.xml
+  <Post>
+    <quality GameDepthOfField="0" CinematicDepthOfField="0" MotionBlur="0" FXAALevel="0" id="ultrahigh" />
+  </Post>
+  ```
 
-Disables post-processing effects separately - Depth of field, FXAA, and motion blur are all combined under the "Post FX" graphics setting.
+  Disables post-processing effects separately - Depth of field, FXAA, and motion blur are all combined under the "Post FX" graphics setting.
 
-`DepthOfField` = the effect that simulates the blurring of objects that are out of focus, based on their distance from the camera. It can enhance the cinematic feel of the game, but it can also cause performance issues and make the game look blurry.
+  `DepthOfField`<br>
+  DoF is the effect that simulates the blurring of objects that are out of focus, based on their distance from the camera. It can enhance the cinematic feel of the game, but it can also cause performance issues and make the game look blurry.
 
-`FXAA` = Fast Approximate Anti-Aliasing is a post-processing technique used to reduce jagged edges (aliasing) in real-time graphics. It works by analyzing the rendered image and applying a blur to areas where it detects high contrast, which helps to smooth out the edges of objects. However, it can also cause a loss of detail and make the image look softer.
+  `FXAA`<br>
+  Fast Approximate Anti-Aliasing is a post-processing technique used to reduce jagged edges (aliasing) in real-time graphics. It works by analyzing the rendered image and applying a blur to areas where it detects high contrast, which helps to smooth out the edges of objects. However, it can also cause a loss of detail and make the image look softer.
 
-`0`: Disables the effect entirely, which can improve performance and reduce visual clutter, especially in fast-paced action scenes. However, it may also make the game look less cinematic and immersive.
-1: Enables the effect, which can provide a subtle improvement in visual quality, at the cost of performance.
+  `0`<br>
+  Disables the effect entirely, which can improve performance and reduce visual clutter, especially in fast-paced action scenes. However, it may also make the game look less cinematic and immersive.
+  1: Enables the effect, which can provide a subtle improvement in visual quality, at the cost of performance.
 
-`id="x"` <br>
-The values can be: `low`, `medium`, `high`, `veryhigh` or `ultrahigh` (depends on the quality preset you choose in the game settings); if set to `custom`, the blur will remain visible. <br>
-This also removes the blur that appears when driving. <br>
-Unfortunately, it will not remove the aiming-down sights blur.
+  `id="x"` <br>
+  The values can be: `low`, `medium`, `high`, `veryhigh` or `ultrahigh` (depends on the quality preset you choose in the game settings); if set to `custom`, the blur will remain visible. <br>
+  This also removes the blur that appears when driving. <br>
+  Unfortunately, it will not remove the aiming-down sights blur.
 
-<br>
+<br><br>
 
-- `SSAOLevel="x"` <br>
-SSAO = Screen Space Ambient Occlusion = a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It adds depth and realism to the scene by simulating the way light interacts with objects, creating soft shadows in crevices and corners where light is occluded. <br>
+- `SSAOLevel="x"` <br><br>
+SSAO = Screen Space Ambient Occlusion = a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It adds depth and realism to the scene by simulating the way light interacts with objects, creating soft shadows in crevices and corners where light is occluded. <br><br>
 The values can be: `0`, `1`, `2` or `3`. <br>
 `0`: Disables Ambient Occlusion entirely. This is the only way to fully turn it off when running in DirectX 11 mode, as the in-game settings only allow you to switch between different methods (SSAO, HBAO, HDAO). <br>
 `1`: Sets it to the standard SSAO method (default for current chosen graphics preset). <br>
 `2`: HBAO (Horizon Based Ambient Occlusion) - a more advanced method that provides better visual quality than SSAO, but also has a higher performance cost. It simulates occlusion effects based on the horizon line, resulting in more accurate and detailed shadows. <br>
-`3`: HDAO (High Definition Ambient Occlusion) - the most advanced method, but also the most performance-intensive. It provides the best visual quality by simulating more accurate occlusion effects, but it can significantly impact performance on lower-end hardware. <br>
+`3`: HDAO (High Definition Ambient Occlusion) - the most advanced method, but also the most performance-intensive. It provides the best visual quality by simulating more accurate occlusion effects, but it can significantly impact performance on lower-end hardware. <br><br><br>
 
 
-- `D3D11MultithreadedRendering="x"` <br>
-Multi-Threaded Rendering = A setting that allows the game to utilize multiple CPU threads for rendering tasks. This can help improve performance by distributing the workload across multiple cores, especially on systems with high core counts. However, it can also introduce instability and cause crashes on some systems, particularly if the game is not optimized for multithreaded rendering or if there are compatibility issues with certain hardware configurations. <br>
-Although it makes the game run way faster/feel more like a highpaced-FPS, it has caused a lot of random, frequent crashes. Therefore, I recommend `D3D11MultithreadedRendering="0"`
+- `D3D11MultithreadedRendering="x"` <br><br>
+Multi-Threaded Rendering = A setting that allows the game to utilize multiple CPU threads for rendering tasks. This can help improve performance by distributing the workload across multiple cores, especially on systems with high core counts. However, it can also introduce instability and cause crashes on some systems, particularly if the game is not optimized for multithreaded rendering or if there are compatibility issues with certain hardware configurations. <br><br>
+Although it makes the game run way faster/feel more like a highpaced-FPS, it has caused a lot of random, frequent crashes. Therefore, I recommend `D3D11MultithreadedRendering="0"`<br><br><br>
 
 
-- `DisableMip0Loading="x"` <br>
-Disables the loading of the highest quality mipmap level (mip0) for textures. This can help improve performance by reducing the amount of memory used for textures, but it may also result in lower visual quality, especially when viewing objects up close. It can be useful for players with lower-end hardware or those looking to maximize performance, but it may not be ideal for those who prioritize visual fidelity.
+- `DisableMip0Loading="x"` <br><br>
+Disables the loading of the highest quality mipmap level (mip0) for textures. This can help improve performance by reducing the amount of memory used for textures, but it may also result in lower visual quality, especially when viewing objects up close. It can be useful for players with lower-end hardware or those looking to maximize performance, but it may not be ideal for those who prioritize visual fidelity.<br><br><br>
 
-- `AllowAsynchShaderLoading = "x"` <br>
-Enables asynchronous loading of shaders, which can help reduce stuttering and improve performance by allowing the game to load shaders in the background while you play. This can be especially beneficial for players with slower storage devices or those who experience frequent stuttering due to shader loading. However, it may also cause some visual glitches or delays in shader loading, so it may not be ideal for all players.
+- `AllowAsynchShaderLoading = "x"` <br><br>
+Enables asynchronous loading of shaders, which can help reduce stuttering and improve performance by allowing the game to load shaders in the background while you play. This can be especially beneficial for players with slower storage devices or those who experience frequent stuttering due to shader loading. However, it may also cause some visual glitches or delays in shader loading, so it may not be ideal for all players.<br><br><br>
 
 > [!Note]
 > In order to edit the config file, remove the "read-only" attribute from the file properties. <br>
@@ -242,6 +245,9 @@ Enables asynchronous loading of shaders, which can help reduce stuttering and im
 <br>
 
 ![Media](/FarCry3/media/LargeAddressAware(2).gif)
+<br>
+
+![Media](/FarCry3/media/LargeAddressAware(3).gif)
 <br>
 
 It seems that, by default, the games only uses 2 GB OF RAM ***(even if you have 32+ GB)*** - at least on newer PC configurations and new Windows versions.
@@ -344,8 +350,8 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 ![Media](/FarCry3/media/NVIDIAControlPanel(1).gif)
 <br>
 
-![Media](/FarCry3/media/NVIDIAControlPanel(2).gif)
-<br>
+<!-- ![Media](/FarCry3/media/NVIDIAControlPanel(2).gif)
+<br> -->
 
 - Anisotropic Filtering: 8x
 
@@ -384,7 +390,8 @@ Vertical sync = a display option that synchronizes the frame rate of the game wi
 
 # II. Burnout Paradise Remastered
 
-Centralized repository of INFO, MODS, PATCHES and TOOLS for the game Burnout Paradise Remastered (PC version): https://github.com/RomulusMirauta/Burnout-Paradise-Remastered
+Centralized repository of INFO, MODS, PATCHES and TOOLS for the game Burnout Paradise Remastered (PC version): <br>
+https://github.com/RomulusMirauta/Burnout-Paradise-Remastered
 
 
 Applied tweaks and mods:
