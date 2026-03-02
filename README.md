@@ -15,14 +15,14 @@
 
 # Table of Contents
 I. &nbsp;&nbsp; [Far Cry 3](#i-far-cry-3) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .a. &nbsp; [Links and credits](#i-a-links-and-credits) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .b. &nbsp; [Launch Options](#i-b-launch-options) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .c. &nbsp; [Config Files](#i-c-config-files) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .d. &nbsp; [Main Tools and Tweaks](#i-d-main-tools-and-tweaks) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. a. &nbsp; [Links and credits](#i-a-links-and-credits) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. b. &nbsp; [Launch Options](#i-b-launch-options) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. c. &nbsp; [Config Files](#i-c-config-files) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. d. &nbsp; [Main Tools and Tweaks](#i-d-main-tools-and-tweaks) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Large Address Aware (TechPowerUp)](#large-address-aware-techpowerup) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .e. &nbsp; [Other tweaks](#i-e-other-tweaks) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. e. &nbsp; [Other tweaks](#i-e-other-tweaks) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Control Panel](#nvidia-control-panel) <br>
 II. &nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) <br>
 
