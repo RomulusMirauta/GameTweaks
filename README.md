@@ -273,9 +273,9 @@ This can be especially beneficial for players with slower storage devices or tho
 <br> -->
 
 It seems that, by default, the games only uses 2 GB OF RAM ***(even if you have 32+ GB)*** - at least on newer PC configurations and new Windows versions.
-This causes performance issues and ,in my case, even *frequent* crashes.
+This causes performance issues and, in my case, even *frequent* crashes.
 
-There is a tool that assists in making applications LAA (large address aware). When a 32-bit application is LAA, it can access up to 4 GB on x64 OS (operating systems) + all memory that isn't used by the OS and other applications on x86 - Large Address Aware (TechPowerUp)
+There is a tool that assists in making applications LAA (large address aware). When a 32-bit application is LAA, it can access up to 4 GB on x64 OS (operating systems) + all memory that isn't used by the OS and other applications on x86.
 
 <br>
 
@@ -320,7 +320,7 @@ Requirements:
 It seems that, by default, the games only uses 2 cores (even if your CPU has 24 cores!) - at least on newer PC configurations.
 This causes performance issues, and in my case even *frequent* crashes.
 
-Real-Time CPU Optimization and Automation Software for Windows processes. Think of it as an automated task manager. From tuning algorithms like ProBalance to user-created rules and persistent settings such as CPU affinities and priority classes, it gives you complete control to run processes YOUR way! - Process Lasso
+Real-Time CPU Optimization and Automation Software for Windows processes. Think of it as an automated task manager. From tuning algorithms like ProBalance to user-created rules and persistent settings such as CPU affinities and priority classes, it gives you complete control to run processes YOUR way!
 
 <br>
 
@@ -347,7 +347,7 @@ We can force the game to utilize 4 cores, by following these steps:
 <!-- ![Media](/FarCry3/media/NVIDIAProfileInspector(2).png)
 <br> -->
 
-Tool used for modifying game profiles inside the internal driver database of the NVIDIA driver. All game profiles are provided by the nvidia driver, but you can add your own profiles for games missing in the driver database. You also have access to hidden and undocumented settings, which are not provided by the drivers control panel - nvidiaProfileInspector
+This tool is used for modifying game profiles inside the internal driver database of the NVIDIA driver. All game profiles are provided by the nvidia driver, but you can add your own profiles for games missing in the driver database. You also have access to hidden and undocumented settings, which are not provided by the drivers control panel.
 
 <br>
 
@@ -397,10 +397,15 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 <br> -->
 
 - Anisotropic Filtering: 8x <br><br>
-Anisotropic Filtering = a texture filtering technique used in 3D graphics to improve the quality of textures on surfaces that are viewed at oblique angles. It works by sampling multiple texels (texture pixels) and applying a weighted average to produce a smoother and more detailed image, especially for textures that are far away or at steep angles. Setting it to 8x can significantly enhance the visual quality of textures, but it may also have a performance impact on lower-end hardware. <br><br><br>
+Anisotropic filtering is a texture filtering technique used in 3D graphics to improve the quality of textures on surfaces that are viewed at oblique angles. <br><br>
+It works by sampling multiple texels (texture pixels) and applying a weighted average to produce a smoother and more detailed image, especially for textures that are far away or at steep angles. <br><br>
+Setting it to 8x can significantly enhance the visual quality of textures, but it may also have a performance impact on lower-end hardware. <br><br><br>
 
 - Antialiasing - Mode: Ehnance the application setting<br><br>
-Antialiasing = a technique used to reduce the jagged edges (aliasing) that can occur in digital images, especially in 3D graphics. It works by smoothing out the edges of objects, making them appear less pixelated and more visually appealing. Setting it to "Enhance the application setting" allows the game to control the level of anti-aliasing based on its own settings, which can help balance visual quality and performance. <br><br><br>
+Antialiasing is a technique used to reduce the jagged edges (aliasing) that can occur in digital images, especially in 3D graphics. <br><br>
+It works by smoothing out the edges of objects, making them appear less pixelated and more visually appealing. <br><br>
+Setting it to "Enhance the application setting" allows the game to control the level of anti-aliasing based on its own settings, which can help balance visual quality and performance. <br><br><br>
+
 
 - Max Frame Rate: Use global setting (On) = 165 FPS <br><br>
 
@@ -410,22 +415,31 @@ Antialiasing = a technique used to reduce the jagged edges (aliasing) that can o
 
 
 - Texture filtering - Anisotropic sample optimization: On<br><br>
-Texture filtering = a technique used to improve the quality of textures when they are viewed at different angles and distances. It helps to reduce blurriness and improve the overall visual quality of textures in 3D graphics. Setting it to "Anisotropic sample optimization: On" can help improve performance by optimizing the way textures are sampled, but it may also result in a slight reduction in visual quality, especially for textures that are viewed at steep angles. <br><br><br>
-
-
+Texture filtering is a technique used to improve the quality of textures when they are viewed at different angles and distances. <br><br>
+It helps to reduce blurriness and improve the overall visual quality of textures in 3D graphics. <br><br>
+Setting it to "Anisotropic sample optimization: On" can help improve performance by optimizing the way textures are sampled, but it may also result in a slight reduction in visual quality, especially for textures that are viewed at steep angles. <br><br><br>
 
 - Texture filtering - Negative LOD bias: Clamp<br><br>
-Negative LOD bias = a setting that controls the level of detail (LOD) bias for textures in 3D graphics. It determines how much the game will favor higher or lower resolution textures when rendering objects at different distances. Setting it to "Clamp" prevents the game from using excessively high-resolution textures that can cause performance issues, while still allowing for some level of detail enhancement. This can help improve performance on lower-end hardware, but it may also result in slightly blurrier textures when viewed up close. <br><br><br>
+Negative LOD bias is a setting that controls the level of detail (LOD) bias for textures in 3D graphics. <br><br>
+It determines how much the game will favor higher or lower resolution textures when rendering objects at different distances. <br><br>
+Setting it to "Clamp" prevents the game from using excessively high-resolution textures that can cause performance issues, while still allowing for some level of detail enhancement. <br><br>
+This can help improve performance on lower-end hardware, but it may also result in slightly blurrier textures when viewed up close. <br><br><br>
 
-
-- Vertical sync: Fast *(as mentioned above, initially set in [NVIDIA Profile Inspector](#nvidia-profile-inspector))*<br><br>
-Vertical sync = a display option that synchronizes the frame rate of the game with the refresh rate of the monitor to prevent screen tearing. Screen tearing occurs when the graphics card outputs frames at a rate that is not in sync with the monitor's refresh rate, resulting in a disjointed image. Setting VSync to "Fast Sync" allows the game to render at a higher frame rate than the monitor's refresh rate, while still preventing screen tearing. This can help reduce input lag and improve performance, especially on high-refresh-rate monitors. However, it may not be ideal for all players, as it can introduce some visual artifacts and may not work well with certain games or hardware configurations. <br><br><br>
+- Vertical Sync: Fast *(as mentioned above, initially set in [NVIDIA Profile Inspector](#nvidia-profile-inspector))*<br><br>
+Vertical Sync is a display option that synchronizes the frame rate of the game with the refresh rate of the monitor to prevent screen tearing. <br><br>
+Screen tearing occurs when the graphics card outputs frames at a rate that is not in sync with the monitor's refresh rate, resulting in a disjointed image. <br><br>
+Setting VSync to "Fast Sync" allows the game to render at a higher frame rate than the monitor's refresh rate, while still preventing screen tearing. This can help reduce input lag and improve performance, especially on high-refresh-rate monitors. <br><br>
+However, it may not be ideal for all players, as it can introduce some visual artifacts and may not work well with certain games or hardware configurations. <br><br><br>
 
 
 >[!Note]
 > Other tweaks that I have applied to the game, but are not mentioned in this repo, are either not safe for all systems (can cause crashes) or do not have a significant impact on performance and/or visual quality.
 
+
+
 <br><br><br>
+
+
 
 # II. Burnout Paradise Remastered
 
