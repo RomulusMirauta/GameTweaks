@@ -106,7 +106,7 @@ Command-line arguments:
 
 <br><br>
 
-Tested the game tweaks mentioned in this repo on `W11 25H2` and PC configuration with the following specs *(and also finished the game, again)*:
+Tested the game tweaks mentioned in this repo on `W11 v25H2` and PC configuration with the following specs *(and also finished the game, again)*:
 
 <table>
   <tr>
