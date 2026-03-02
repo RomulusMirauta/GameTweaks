@@ -14,16 +14,17 @@
 
 
 # Table of Contents
-I. [Far Cry 3](#i-far-cry-3) <br>
-&nbsp;&nbsp; I .a. &nbsp; [Links and credits](#i-a-links-and-credits) <br>
-&nbsp;&nbsp; I .b. &nbsp; [Launch Options](#i-b-launch-options) <br>
-&nbsp;&nbsp; I .c. &nbsp; [My Config File](#i-c-my-config-file) <br>
-&nbsp;&nbsp; I .d. &nbsp; [Tools and Tweaks](#i-d-tools-and-tweaks) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Large Address Aware (TechPowerUp)](#large-address-aware-techpowerup) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
-&nbsp;&nbsp; I .e. &nbsp; [Other tweaks](#i-e-other-tweaks) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Control Panel](#nvidia-control-panel) <br>
+I. &nbsp;&nbsp; [Far Cry 3](#i-far-cry-3) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .a. &nbsp; [Links and credits](#i-a-links-and-credits) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .b. &nbsp; [Launch Options](#i-b-launch-options) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .c. &nbsp; [My Config File](#i-c-my-config-file) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .d. &nbsp; [Tools and Tweaks](#i-d-tools-and-tweaks) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Large Address Aware (TechPowerUp)](#large-address-aware-techpowerup) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .e. &nbsp; [Other tweaks](#i-e-other-tweaks) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Control Panel](#nvidia-control-panel) <br>
+II. &nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) <br>
 
 
 # I. Far Cry 3
@@ -354,3 +355,27 @@ Vertical sync = a display option that synchronizes the frame rate of the game wi
 
 >[!Note]
 > Other tweaks that I have applied to the game, but are not mentioned in this repo, are either not safe for all systems (can cause crashes) or do not have a significant impact on performance and/or visual quality.
+
+
+# II. Burnout Paradise Remastered
+
+Centralized repository of INFO, MODS, PATCHES and TOOLS for the game Burnout Paradise Remastered (PC version): https://github.com/RomulusMirauta/Burnout-Paradise-Remastered
+
+
+Applied tweaks and mods:
+- Steam Launch Options: 
+
+  ```.launchoptions
+  -skipvideos
+  ```
+
+- MODs / Patches:
+  - [orimarc's BPR Speed Patch](https://community.pcgamingwiki.com/files/file/2058-bpr-speed-patch/)
+  - [Bo Anderson's (Bo98) BPR Modder](https://bpr.bo98.uk/)
+    - Core Bugfixes (v0.2.1)
+    - Traffic Toggle (v1.0)
+
+- Tweaks:
+  - [Large Address Aware (TechPowerUp)](#large-address-aware-techpowerup) <br>
+  - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
+  - [NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
