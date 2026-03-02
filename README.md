@@ -72,6 +72,10 @@ II. &nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) <br>
 
 <!-- \GameTweaks\FarCry3\SSs\LaunchOptions.jpg -->
 
+![Launch Options](/FarCry3/media/SteamLaunchOptions(1).gif)
+![Launch Options](/FarCry3/media/SteamLaunchOptions(2).gif)
+
+
 <br>
 
 ```.launchoptions
