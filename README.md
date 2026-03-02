@@ -14,50 +14,77 @@ I. [Far Cry 3](#i-far-cry-3) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [- Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [- NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
 &nbsp;&nbsp; I .e. &nbsp; [Other tweaks](#i-e-other-tweaks) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [- NVIDIA Control Panel](#nvidia-control-panel) <br>
+
 
 # I. Far Cry 3
 
-## I. a. Links and credits:
+
+## I. a. Links and credits
+
+### Steam & Steam Community Guides and Discussions
 - https://store.steampowered.com/app/220240/Far_Cry_3/
-- https://www.pcgamingwiki.com/wiki/Far_Cry_3
 - https://steamcommunity.com/sharedfiles/filedetails/?id=3151589566
-- https://www.reddit.com/r/farcry/comments/1err2t6/far_cry_3_fix_random_crashing_and_other_errors_on/
 - https://steamcommunity.com/sharedfiles/filedetails/?id=3348375844
+
+
+### PCGamingWiki
+- https://www.pcgamingwiki.com/wiki/Far_Cry_3
+
+
+### Reddit
 - https://www.reddit.com/r/farcry/comments/2nhmzq/psa_this_seriously_fixed_999_of_my_stuttering/
 - https://www.reddit.com/r/farcry/comments/2ncqk0/how_to_get_quality_textures_without_the_stuttering/
+- https://www.reddit.com/r/farcry/comments/1err2t6/far_cry_3_fix_random_crashing_and_other_errors_on/
+
+
+## GitHub
+https://github.com/Orbmu2k/nvidiaProfileInspector
+
+
+### CoderBag
+- https://www.coderbag.com/Programming-C/Disable-CPU-Core-Parking-Utility
+
+### Bitsum
+- https://bitsum.com/
+
+### TechPowerUp
 - https://www.techpowerup.com/forums/threads/large-address-aware.112556/
 
+
 <br>
+
 
 ## I. b. Launch Options
 
 <!-- \GameTweaks\FarCry3\SSs\LaunchOptions.jpg -->
 
-`-skipintro -offline -RenderProfile_MaxFPS 165`
+<br>
 
-Command-line argument
+```.launchoptions
+-skipintro -offline -RenderProfile_MaxFPS 165
+```
 
-- `-skipintro`
-	Skip game intro videos.
+<br>
 
+Command-line arguments:
 
-- `-offline`
-	Removes main menu features that are not available anymore: co-op, multiplayer, Uplay.
+- `-skipintro` Skips game intro videos.
+
+- `-offline`  Removes main menu features that are not available anymore: co-op, multiplayer, Uplay.
 
 > [!Note]
-> Official multiplayer features were disabled in v1.06. <br>
-> Community Revival (2026): As of February 2026, a dedicated community project via the Far Cry Discord has successfully "revived" the multiplayer. This allows players to access Co-op and Versus modes again, often requiring a small patch or specific files to redirect the game to community-hosted services.
+> - Official multiplayer features were disabled in v1.06. <br>
+> - Community Revival (2026): As of February 2026, a dedicated community project via the Far Cry Discord has successfully "revived" the multiplayer. This allows players to access Co-op and Versus modes again, often requiring a small patch or specific files to redirect the game to community-hosted services.
 
 
-- `-RenderProfile_MaxFPS X` 
-	Forces the game to render at a maximum of *X* FPS.
+- `-RenderProfile_MaxFPS X`  Forces the game to render at a maximum of ***X*** FPS.
 
 
-This method helps eliminate micro stuttering - especially with the DX11 executable - though this may be the result of combining with below-mentioned fixes & tweaks as well.
-
-The game can be rendered and displayed at 165+ FPS (tested myself), but the stutters/microstutters could happen more often and would be way more aggressive (165 to 32 FPS, if below-settings are not applied and if the system is not able to achieve targeted FPS).
-
-This fixed the issue where NPCs shake/twitch randomly.
+> [!Note]
+> - This method helps eliminate micro stuttering - especially with the DX11 executable - though this may be the result of combining with below-mentioned fixes & tweaks as well.
+> - The game can be rendered and displayed at 165+ FPS (tested myself), but the stutters/microstutters could happen more often and would be way more aggressive (165 to 32 FPS, if below-settings are not applied and if the system is not able to achieve targeted FPS).
+> - This fixed the issue where NPCs shake/twitch randomly.
 
 <br>
 
@@ -136,19 +163,21 @@ VSync can help, but also adds some input lag.
 
 Explanations for the most important tweaks:
 
+- added lines to the config file *(which are not present in the default one)*
+
 ```.xml
-	<Post>
-		<quality GameDepthOfField="0" CinematicDepthOfField="0" MotionBlur="0" FXAALevel="0" id="ultrahigh" />
-	</Post>
+<Post>
+  <quality GameDepthOfField="0" CinematicDepthOfField="0" MotionBlur="0" FXAALevel="0" id="ultrahigh" />
+</Post>
 ```
 
 Disables post-processing effects separately - Depth of field, FXAA, and motion blur are all combined under the "Post FX" graphics setting.
 
-DepthOfField = the effect that simulates the blurring of objects that are out of focus, based on their distance from the camera. It can enhance the cinematic feel of the game, but it can also cause performance issues and make the game look blurry.
+`DepthOfField` = the effect that simulates the blurring of objects that are out of focus, based on their distance from the camera. It can enhance the cinematic feel of the game, but it can also cause performance issues and make the game look blurry.
 
-FXAA = Fast Approximate Anti-Aliasing is a post-processing technique used to reduce jagged edges (aliasing) in real-time graphics. It works by analyzing the rendered image and applying a blur to areas where it detects high contrast, which helps to smooth out the edges of objects. However, it can also cause a loss of detail and make the image look softer.
+`FXAA` = Fast Approximate Anti-Aliasing is a post-processing technique used to reduce jagged edges (aliasing) in real-time graphics. It works by analyzing the rendered image and applying a blur to areas where it detects high contrast, which helps to smooth out the edges of objects. However, it can also cause a loss of detail and make the image look softer.
 
-0: Disables the effect entirely, which can improve performance and reduce visual clutter, especially in fast-paced action scenes. However, it may also make the game look less cinematic and immersive.
+`0`: Disables the effect entirely, which can improve performance and reduce visual clutter, especially in fast-paced action scenes. However, it may also make the game look less cinematic and immersive.
 1: Enables the effect, which can provide a subtle improvement in visual quality, at the cost of performance.
 
 `id="x"` <br>
@@ -159,13 +188,12 @@ Unfortunately, it will not remove the aiming-down sights blur.
 <br>
 
 - `SSAOLevel="x"` <br>
-SSAO = Screen Space Ambient Occlusion = a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It adds depth and realism to the scene by simulating the way light interacts with objects, creating soft shadows in crevices and corners where light is occluded.
-
-The values can be: `0`, `1`, `2` or `3` 
-0: Disables Ambient Occlusion entirely. This is the only way to fully turn it off when running in DirectX 11 mode, as the in-game settings only allow you to switch between different methods (SSAO, HBAO, HDAO).
-1: Sets it to the standard SSAO method (default for current chosen graphics preset).
-2: HBAO (Horizon Based Ambient Occlusion) - a more advanced method that provides better visual quality than SSAO, but also has a higher performance cost. It simulates occlusion effects based on the horizon line, resulting in more accurate and detailed shadows.
-3: HDAO (High Definition Ambient Occlusion) - the most advanced method, but also the most performance-intensive. It provides the best visual quality by simulating more accurate occlusion effects, but it can significantly impact performance on lower-end hardware.
+SSAO = Screen Space Ambient Occlusion = a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It adds depth and realism to the scene by simulating the way light interacts with objects, creating soft shadows in crevices and corners where light is occluded. <br>
+The values can be: `0`, `1`, `2` or `3`. <br>
+`0`: Disables Ambient Occlusion entirely. This is the only way to fully turn it off when running in DirectX 11 mode, as the in-game settings only allow you to switch between different methods (SSAO, HBAO, HDAO). <br>
+`1`: Sets it to the standard SSAO method (default for current chosen graphics preset). <br>
+`2`: HBAO (Horizon Based Ambient Occlusion) - a more advanced method that provides better visual quality than SSAO, but also has a higher performance cost. It simulates occlusion effects based on the horizon line, resulting in more accurate and detailed shadows. <br>
+`3`: HDAO (High Definition Ambient Occlusion) - the most advanced method, but also the most performance-intensive. It provides the best visual quality by simulating more accurate occlusion effects, but it can significantly impact performance on lower-end hardware. <br>
 
 
 - `D3D11MultithreadedRendering="x"` <br>
@@ -193,10 +221,12 @@ Enables asynchronous loading of shaders, which can help reduce stuttering and im
 
 <!-- \GameTweaks\FarCry3\SSs\.jpg -->
 
-It seems that, by default, the games only uses 2 GB OF RAM (even if you have 32+ GB) - at least on newer PC configurations and new Windows versions.
+It seems that, by default, the games only uses 2 GB OF RAM ***(even if you have 32+ GB)*** - at least on newer PC configurations and new Windows versions.
 This causes performance issues, and in my case even *frequent* crashes.
 
 Tool that assists in making applications LAA (large address aware). When a 32-bit application is LAA, it can access up to 4 GB on x64 OS (operating systems) + all memory that isn't used by the OS and other applications on x86 - Large Address Aware (TechPowerUp)
+
+You can download the tool from [here](https://www.techpowerup.com/forums/attachments/laa_2_0_4-zip.34392/).
 
 We can force the game to utilize 4 GB of RAM, by following these steps.
 
@@ -226,8 +256,8 @@ It seems that, by default, the games only uses 2 cores (even if your CPU has 24 
 This causes performance issues, and in my case even *frequent* crashes.
 
 Real-Time CPU Optimization and Automation Software for Windows processes. Think of it as an automated task manager. From tuning algorithms like ProBalance to user-created rules and persistent settings such as CPU affinities and priority classes, it gives you complete control to run processes YOUR way! - Process Lasso
-https://bitsum.com/
 
+You can download the tool from [here](https://dl.bitsum.com/files/processlassosetup64.exe).
 
 We can force the game to utilize 4 cores, by following these steps:
 1. Download, install and open Process Lasso
@@ -245,7 +275,8 @@ We can force the game to utilize 4 cores, by following these steps:
 <!-- \GameTweaks\FarCry3\SSs\.jpg -->
 
 Tool used for modifying game profiles inside the internal driver database of the NVIDIA driver. All game profiles are provided by the nvidia driver, but you can add your own profiles for games missing in the driver database. You also have access to hidden and undocumented settings, which are not provided by the drivers control panel - nvidiaProfileInspector
-https://github.com/Orbmu2k/nvidiaProfileInspector
+
+You can download the tool from [here](https://github.com/Orbmu2k/nvidiaProfileInspector/releases).
 
 Category: Sync and Refresh
 Parameter: Vertical Sync
@@ -283,38 +314,34 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 
 - Anisotropic Filtering: 8x
 
-Anisotropic Filtering = a texture filtering technique used in 3D graphics to improve the quality of textures on surfaces that are viewed at oblique angles. It works by sampling multiple texels (texture pixels) and applying a weighted average to produce a smoother and more detailed image, especially for textures that are far away or at steep angles. Setting it to 8x can significantly enhance the visual quality of textures, but it may also have a performance impact on lower-end hardware.
+Anisotropic Filtering = a texture filtering technique used in 3D graphics to improve the quality of textures on surfaces that are viewed at oblique angles. It works by sampling multiple texels (texture pixels) and applying a weighted average to produce a smoother and more detailed image, especially for textures that are far away or at steep angles. Setting it to 8x can significantly enhance the visual quality of textures, but it may also have a performance impact on lower-end hardware. <br> <br>
 
 - Antialiasing - Mode: Ehnance the application setting
 
-Antialiasing = a technique used to reduce the jagged edges (aliasing) that can occur in digital images, especially in 3D graphics. It works by smoothing out the edges of objects, making them appear less pixelated and more visually appealing. Setting it to "Enhance the application setting" allows the game to control the level of anti-aliasing based on its own settings, which can help balance visual quality and performance.
+Antialiasing = a technique used to reduce the jagged edges (aliasing) that can occur in digital images, especially in 3D graphics. It works by smoothing out the edges of objects, making them appear less pixelated and more visually appealing. Setting it to "Enhance the application setting" allows the game to control the level of anti-aliasing based on its own settings, which can help balance visual quality and performance. <br> <br>
 
+- Max Frame Rate: Use global setting (On) = 165 FPS <br> <br>
 
-- Max Frame Rate: Use global setting (On) = 165 FPS
+- Monitor Technology: Use global setting (On) = G-SYNC Compatible <br> <br>
 
-- Monitor Technology: Use global setting (On) = G-SYNC Compatible
-
-- Power management mode: Use global setting (On) = Prefer maximum performance
+- Power management mode: Use global setting (On) = Prefer maximum performance <br> <br>
 
 
 - Texture filtering - Anisotropic sample optimization: On
 
-Texture filtering = a technique used to improve the quality of textures when they are viewed at different angles and distances. It helps to reduce blurriness and improve the overall visual quality of textures in 3D graphics. Setting it to "Anisotropic sample optimization: On" can help improve performance by optimizing the way textures are sampled, but it may also result in a slight reduction in visual quality, especially for textures that are viewed at steep angles.
+Texture filtering = a technique used to improve the quality of textures when they are viewed at different angles and distances. It helps to reduce blurriness and improve the overall visual quality of textures in 3D graphics. Setting it to "Anisotropic sample optimization: On" can help improve performance by optimizing the way textures are sampled, but it may also result in a slight reduction in visual quality, especially for textures that are viewed at steep angles. <br> <br>
+
 
 
 - Texture filtering - Negative LOD bias: Clamp
 
-Negative LOD bias = a setting that controls the level of detail (LOD) bias for textures in 3D graphics. It determines how much the game will favor higher or lower resolution textures when rendering objects at different distances. Setting it to "Clamp" prevents the game from using excessively high-resolution textures that can cause performance issues, while still allowing for some level of detail enhancement. This can help improve performance on lower-end hardware, but it may also result in slightly blurrier textures when viewed up close.
+Negative LOD bias = a setting that controls the level of detail (LOD) bias for textures in 3D graphics. It determines how much the game will favor higher or lower resolution textures when rendering objects at different distances. Setting it to "Clamp" prevents the game from using excessively high-resolution textures that can cause performance issues, while still allowing for some level of detail enhancement. This can help improve performance on lower-end hardware, but it may also result in slightly blurrier textures when viewed up close. <br> <br>
 
 
-- Vertical sync: Fast *(as mentioned above, initially set in [NVIDIA Profile Inspector](###-NVIDIA-Profile-Inspector))*
+- Vertical sync: Fast *(as mentioned above, initially set in [NVIDIA Profile Inspector](#nvidia-profile-inspector))*
 
-Vertical sync = a display option that synchronizes the frame rate of the game with the refresh rate of the monitor to prevent screen tearing. Screen tearing occurs when the graphics card outputs frames at a rate that is not in sync with the monitor's refresh rate, resulting in a disjointed image. Setting VSync to "Fast Sync" allows the game to render at a higher frame rate than the monitor's refresh rate, while still preventing screen tearing. This can help reduce input lag and improve performance, especially on high-refresh-rate monitors. However, it may not be ideal for all players, as it can introduce some visual artifacts and may not work well with certain games or hardware configurations.
-
-
-
-<br>
+Vertical sync = a display option that synchronizes the frame rate of the game with the refresh rate of the monitor to prevent screen tearing. Screen tearing occurs when the graphics card outputs frames at a rate that is not in sync with the monitor's refresh rate, resulting in a disjointed image. Setting VSync to "Fast Sync" allows the game to render at a higher frame rate than the monitor's refresh rate, while still preventing screen tearing. This can help reduce input lag and improve performance, especially on high-refresh-rate monitors. However, it may not be ideal for all players, as it can introduce some visual artifacts and may not work well with certain games or hardware configurations. <br> <br>
 
 
-
-Other tweaks that I have applied to the game, but are not mentioned in this repo, are either not safe for all systems (can cause crashes) or do not have a significant impact on performance and/or visual quality.
+>[!Note]
+> Other tweaks that I have applied to the game, but are not mentioned in this repo, are either not safe for all systems (can cause crashes) or do not have a significant impact on performance and/or visual quality.
