@@ -1,8 +1,17 @@
-# Game Tweaks Repo
+<div align="center">
+    <h1>
+        Game Tweaks Repo
+    </h1>
+    <p>
+        <em> 
+            This repository is a collection of various tweaks, configuration tips, and tools focused on improving performance, stability, and visual quality for games. The goal is to provide a single reference for settings adjustments, launch options, and third-party utilities that can help players get the most out of their systems while playing older or demanding titles. Contributions and updates for other games are welcome as the collection grows.
+        </em>
+    </p>
+</div>
 
-This repository is a collection of various tweaks, configuration tips, and tools focused on improving performance, stability, and visual quality for games. The goal is to provide a single reference for settings adjustments, launch options, and third-party utilities that can help players get the most out of their systems while playing older or demanding titles. Contributions and updates for other games are welcome as the collection grows.
 
-<br>
+<br><br>
+
 
 # Table of Contents
 I. [Far Cry 3](#i-far-cry-3) <br>
