@@ -29,7 +29,8 @@ II. &nbsp;&nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; II. b. &nbsp; [Tweaks and Mods](#ii-b-tweaks-and-mods) <br>
 III. &nbsp; [Mirror's Edge](#iii-mirrors-edge) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; III. a. &nbsp; [Links](#iii-a-links) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; III. b. &nbsp; [Tweaks](#iii-b-tweaks) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; III. b. &nbsp; [Fixes & Workarounds](#iii-b-fixes--workarounds) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; III. c. &nbsp; [Tweaks](#iii-c-tweaks) <br>
 
 
 <br><br>
@@ -515,8 +516,17 @@ The tweaks and mods that made my game experience way better, and that I highly r
 
 <br>
 
-## III. b. Tweaks
 
+## III. b. Fixes & Workarounds
+
+If the game crashes on first launch:
+1. Go to the game installation folder (e.g., `C:\Program Files (x86)\Steam\steamapps\common\mirrors edge\`) and open the `PhysX` folder
+2. Install `PhysX_SystemSoftware.exe`
+3. Start the game from Steam
+
+<br>
+
+## III. c. Tweaks
 Tested the game tweaks mentioned in this repo on `W11 v25H2` and [this PC configuration](#tested-the-game-tweaks-mentioned-in-this-repo-on-w11-v25h2-and-pc-configuration-with-the-following-specs-and-also-finished-the-game-again).
 
 The tweaks and mods that made my experience with the game way better, and that I recommend to everyone are:
