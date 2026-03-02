@@ -18,7 +18,7 @@ I. &nbsp;&nbsp; [Far Cry 3](#i-far-cry-3) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .a. &nbsp; [Links and credits](#i-a-links-and-credits) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .b. &nbsp; [Launch Options](#i-b-launch-options) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .c. &nbsp; [My Config File](#i-c-my-config-file) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .d. &nbsp; [Tools and Tweaks](#i-d-tools-and-tweaks) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .d. &nbsp; [Main Tools and Tweaks](#i-d-main-tools-and-tweaks) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Large Address Aware (TechPowerUp)](#large-address-aware-techpowerup) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
@@ -234,7 +234,7 @@ Enables asynchronous loading of shaders, which can help reduce stuttering and im
 <br>
 
 
-## I. d. Tools and Tweaks
+## I. d. Main Tools and Tweaks
 
 ### Large Address Aware (TechPowerUp)
 
