@@ -51,8 +51,8 @@ II. &nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) <br>
 - https://www.reddit.com/r/farcry/comments/1err2t6/far_cry_3_fix_random_crashing_and_other_errors_on/
 
 
-## GitHub
-https://github.com/Orbmu2k/nvidiaProfileInspector
+### GitHub
+- https://github.com/Orbmu2k/nvidiaProfileInspector
 
 
 ### CoderBag
@@ -160,7 +160,7 @@ Tested the game tweaks mentioned in this repo on `W11 25H2` and PC configuration
 
 <!-- \GameTweaks\FarCry3\SSs\.jpg -->
 
-Config file location: `Documents\Far Cry 3\`
+Config file location: `%USERPROFILE%\Documents\Far Cry 3\` <br>
 File name: `GamerProfile.xml`
 
 My config file: [GamerProfile.xml](./FarCry3/GamerProfile.xml) <br>
