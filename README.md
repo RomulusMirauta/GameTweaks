@@ -408,11 +408,19 @@ Setting it to "Enhance the application setting" allows the game to control the l
 
 
 - Max Frame Rate: Use global setting (On) = 165 FPS <br><br>
+Max Frame Rate is a setting that allows you to limit the maximum number of frames per second (FPS) that a game can render. <br><br>
+Setting it to "Use global setting (On)" allows you to specify a global frame rate limit for all games, which can help reduce screen tearing and improve performance on systems that may struggle to maintain a consistent frame rate. <br><br>
+In this case, setting it to 165 FPS *(matching my monitor's max refresh rate)*, can help ensure that the game runs smoothly and reduces the chances of stuttering or micro stuttering, especially on high-refresh-rate monitors. <br><br><br>
 
 - Monitor Technology: Use global setting (On) = G-SYNC Compatible <br><br>
+Monitor Technology is a setting that allows you to specify the type of adaptive sync technology that your monitor supports. <br><br>
+Setting it to "Use global setting (On)" allows the game to automatically detect and utilize the appropriate adaptive sync technology based on your monitor's capabilities. <br><br>
+In this case, setting it to "G-SYNC Compatible" can help reduce screen tearing and improve overall visual quality by synchronizing the game's frame rate with the monitor's refresh rate, especially if you have a G-SYNC compatible monitor. <br><br><br>
 
-- Power management mode: Use global setting (On) = Prefer maximum performance <br><br><br>
-
+- Power management mode: Use global setting (On) = Prefer maximum performance <br><br>
+Power management mode is a setting that allows you to specify how the graphics card manages its power consumption. <br><br>
+Setting it to "Use global setting (On)" allows the game to utilize the global power management settings specified in the NVIDIA Control Panel. <br><br>
+In this case, setting it to "Prefer maximum performance" can help ensure that the graphics card runs at its maximum performance level while playing the game, which can help improve frame rates and reduce stuttering, especially on systems that may struggle to maintain a consistent frame rate. However, it may also result in increased power consumption and heat generation, so it may not be ideal for all players or hardware configurations. <br><br><br>
 
 - Texture filtering - Anisotropic sample optimization: On<br><br>
 Texture filtering is a technique used to improve the quality of textures when they are viewed at different angles and distances. <br><br>
