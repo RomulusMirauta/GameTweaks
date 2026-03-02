@@ -237,15 +237,22 @@ The values can be: `0`, `1`, `2` or `3`. <br>
 
 
 - `D3D11MultithreadedRendering="x"` <br><br>
-Multi-Threaded Rendering = A setting that allows the game to utilize multiple CPU threads for rendering tasks. This can help improve performance by distributing the workload across multiple cores, especially on systems with high core counts. However, it can also introduce instability and cause crashes on some systems, particularly if the game is not optimized for multithreaded rendering or if there are compatibility issues with certain hardware configurations. <br><br>
+Multi-Threaded Rendering = A setting that allows the game to utilize multiple CPU threads for rendering tasks. This can help improve performance by distributing the workload across multiple cores, especially on systems with high core counts. <br><br>
+
+However, it can also introduce instability and cause crashes on some systems, particularly if the game is not optimized for multithreaded rendering or if there are compatibility issues with certain hardware configurations. <br><br>
+
 Although it makes the game run way faster/feel more like a highpaced-FPS, it has caused a lot of random, frequent crashes. Therefore, I recommend `D3D11MultithreadedRendering="0"`<br><br><br>
 
 
 - `DisableMip0Loading="x"` <br><br>
-Disables the loading of the highest quality mipmap level (mip0) for textures. This can help improve performance by reducing the amount of memory used for textures, but it may also result in lower visual quality, especially when viewing objects up close. It can be useful for players with lower-end hardware or those looking to maximize performance, but it may not be ideal for those who prioritize visual fidelity.<br><br><br>
+Disables the loading of the highest quality mipmap level (mip0) for textures. This can help improve performance by reducing the amount of memory used for textures, but it may also result in lower visual quality, especially when viewing objects up close. <br><br>
+
+It can be useful for players with lower-end hardware or those looking to maximize performance, but it may not be ideal for those who prioritize visual fidelity.<br><br><br>
 
 - `AllowAsynchShaderLoading = "x"` <br><br>
-Enables asynchronous loading of shaders, which can help reduce stuttering and improve performance by allowing the game to load shaders in the background while you play. This can be especially beneficial for players with slower storage devices or those who experience frequent stuttering due to shader loading. However, it may also cause some visual glitches or delays in shader loading, so it may not be ideal for all players.<br><br><br>
+Enables asynchronous loading of shaders, which can help reduce stuttering and improve performance by allowing the game to load shaders in the background while you play. <br><br>
+
+This can be especially beneficial for players with slower storage devices or those who experience frequent stuttering due to shader loading. However, it may also cause some visual glitches or delays in shader loading, so it may not be ideal for all players.<br><br><br>
 
 > [!Note]
 > In order to edit the config file, remove the "read-only" attribute from the file properties. <br>
@@ -269,18 +276,26 @@ Enables asynchronous loading of shaders, which can help reduce stuttering and im
 <br> -->
 
 It seems that, by default, the games only uses 2 GB OF RAM ***(even if you have 32+ GB)*** - at least on newer PC configurations and new Windows versions.
-This causes performance issues, and in my case even *frequent* crashes.
+This causes performance issues and ,in my case, even *frequent* crashes.
 
-Tool that assists in making applications LAA (large address aware). When a 32-bit application is LAA, it can access up to 4 GB on x64 OS (operating systems) + all memory that isn't used by the OS and other applications on x86 - Large Address Aware (TechPowerUp)
+There is a tool that assists in making applications LAA (large address aware). When a 32-bit application is LAA, it can access up to 4 GB on x64 OS (operating systems) + all memory that isn't used by the OS and other applications on x86 - Large Address Aware (TechPowerUp)
+
+<br>
 
 You can download the tool from [here](https://www.techpowerup.com/forums/attachments/laa_2_0_4-zip.34392/).
 
+<br>
+
 We can force the game to utilize 4 GB of RAM, by following these steps.
+
+<br>
 
 Basic mode:
 1) Open an executable to modify (click on the "..." button to browse). Alternatively, you can drag and drop a file on the gray text box.
 2) Check or uncheck the box specifying whether or not you want to make it large address aware.
 3) Click on save to commit the changes.
+
+<br>
 
 Intermediate and advanced mode (Advanced shown):
 1) Add files through the "Add" drop down menu or click on on Add Files. Alternatively, you can drag and drop the files into the list view.
@@ -288,11 +303,13 @@ Intermediate and advanced mode (Advanced shown):
 3) Either click on "Switch Large Address Aware" (turns true to false and false to true) or select an option from the "With Selected" drop down menu.
 4) If you wish to remove files from the list, you may do so in Advanced mode via the "Remove" drop down menu.
 
-Requirements:
-.NET Framework 3.5 or newer (get the latest version from Windows Update under optional updates).
-
-
 <br>
+
+Requirements:
+.NET Framework 3.5 or newer *(get the latest version from Windows Update under optional updates)*.
+
+
+<br><br>
 
 
 ### Process Lasso (Bitsum)
@@ -308,7 +325,11 @@ This causes performance issues, and in my case even *frequent* crashes.
 
 Real-Time CPU Optimization and Automation Software for Windows processes. Think of it as an automated task manager. From tuning algorithms like ProBalance to user-created rules and persistent settings such as CPU affinities and priority classes, it gives you complete control to run processes YOUR way! - Process Lasso
 
+<br>
+
 You can download the tool from [here](https://dl.bitsum.com/files/processlassosetup64.exe).
+
+<br>
 
 We can force the game to utilize 4 cores, by following these steps:
 1. Download, install and open Process Lasso
@@ -318,7 +339,7 @@ We can force the game to utilize 4 cores, by following these steps:
 5. Click on "Save Named Affinity" and click OK
 
 
-<br>
+<br><br>
 
 
 ### NVIDIA Profile Inspector
@@ -331,10 +352,16 @@ We can force the game to utilize 4 cores, by following these steps:
 
 Tool used for modifying game profiles inside the internal driver database of the NVIDIA driver. All game profiles are provided by the nvidia driver, but you can add your own profiles for games missing in the driver database. You also have access to hidden and undocumented settings, which are not provided by the drivers control panel - nvidiaProfileInspector
 
+<br>
+
 You can download the tool from [here](https://github.com/Orbmu2k/nvidiaProfileInspector/releases).
 
-Category: Sync and Refresh
+<br>
+
+Category: Sync and Refresh <br>
 Parameter: Vertical Sync
+
+<br>
 
 Possible Values:
 - Fast Sync
@@ -346,6 +373,7 @@ Possible Values:
 - 1/3 Refresh Rate
 - 1/4 Refresh Rate
 
+<br>
 
 Tried all values => Fast Sync seemed to be the best for me, but I recommend testing all options to see which one works best for your specific setup and preferences.
 
@@ -354,8 +382,8 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 <br>
 
 > [!Note]
-> Regarding removing Uplay necessity - tried multiple methods - had no joy with any of them. <br>
-> Decided to not MOD the game, even if some have fixes as well - at least not this time (maybe on the 1.000th playthrough). Main reason: most MODS affect the core gameplay. 
+> - Regarding removing Uplay necessity - tried multiple methods - had no joy with any of them. <br>
+> - Decided to not MOD the game, even if some have fixes as well - at least not this time (maybe on the 1.000th playthrough). Main reason: most MODS affect the core gameplay. 
 
 
 <br>
