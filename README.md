@@ -174,10 +174,14 @@ File name: <br>
 
 
 You can download the config files from here: <br>
-- My config file: [GamerProfile.xml](./FarCry3/GamerProfile.xml) <br>
-- Config file in *"compatibility mode"* (only with safe-for-all-systems tweaks applied): [[COMPATIBILITY]GamerProfile.xml](./FarCry3/[COMPATIBILITY]GamerProfile.xml)<br><br>
+- My config file: <br>
+  [GamerProfile.xml](./FarCry3/GamerProfile.xml) <br>
+- Config file in *"compatibility mode"* (only with safe-for-all-systems tweaks applied): <br>
+  [[COMPATIBILITY]GamerProfile.xml](./FarCry3/[COMPATIBILITY]GamerProfile.xml)<br><br>
 
 Purpose: finding the balance - maximizing performance and minimizing stutters/microstutters, while keeping the game visually appealing and preserving its high-paced FPS nature.
+
+<br>
 
 > [!TIP]
 > VSync can help, but also adds some input lag.
@@ -195,22 +199,22 @@ Explanations for the most important tweaks:
   </Post>
   ```
 
-  Disables post-processing effects separately - Depth of field, FXAA, and motion blur are all combined under the "Post FX" graphics setting.
+    Disables post-processing effects separately - Depth of field, FXAA, and motion blur are all combined under the "Post FX" graphics setting.
 
-  `DepthOfField`<br>
-  DoF is the effect that simulates the blurring of objects that are out of focus, based on their distance from the camera. It can enhance the cinematic feel of the game, but it can also cause performance issues and make the game look blurry.
+    `DepthOfField`<br>
+    DoF is the effect that simulates the blurring of objects that are out of focus, based on their distance from the camera. It can enhance the cinematic feel of the game, but it can also cause performance issues and make the game look blurry.
 
-  `FXAA`<br>
-  Fast Approximate Anti-Aliasing is a post-processing technique used to reduce jagged edges (aliasing) in real-time graphics. It works by analyzing the rendered image and applying a blur to areas where it detects high contrast, which helps to smooth out the edges of objects. However, it can also cause a loss of detail and make the image look softer.
+    `FXAA`<br>
+    Fast Approximate Anti-Aliasing is a post-processing technique used to reduce jagged edges (aliasing) in real-time graphics. It works by analyzing the rendered image and applying a blur to areas where it detects high contrast, which helps to smooth out the edges of objects. However, it can also cause a loss of detail and make the image look softer.
 
-  `0`<br>
-  Disables the effect entirely, which can improve performance and reduce visual clutter, especially in fast-paced action scenes. However, it may also make the game look less cinematic and immersive.
-  1: Enables the effect, which can provide a subtle improvement in visual quality, at the cost of performance.
+    `0`<br>
+    Disables the effect entirely, which can improve performance and reduce visual clutter, especially in fast-paced action scenes. However, it may also make the game look less cinematic and immersive.
+    1: Enables the effect, which can provide a subtle improvement in visual quality, at the cost of performance.
 
-  `id="x"` <br>
-  The values can be: `low`, `medium`, `high`, `veryhigh` or `ultrahigh` (depends on the quality preset you choose in the game settings); if set to `custom`, the blur will remain visible. <br>
-  This also removes the blur that appears when driving. <br>
-  Unfortunately, it will not remove the aiming-down sights blur.
+    `id="x"` <br>
+    The values can be: `low`, `medium`, `high`, `veryhigh` or `ultrahigh` (depends on the quality preset you choose in the game settings); if set to `custom`, the blur will remain visible. <br>
+    This also removes the blur that appears when driving. <br>
+    Unfortunately, it will not remove the aiming-down sights blur.
 
 <br><br>
 
