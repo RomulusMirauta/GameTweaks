@@ -170,7 +170,7 @@ Tested the game tweaks mentioned in this repo on `W11 v25H2` and PC configuratio
 <br><br>
 
 Config file location: <br>
-`%USERPROFILE%\Documents\Far Cry 3\` <br>
+`%USERPROFILE%\Documents\Far Cry 3` <br>
 
 File name: <br>
 `GamerProfile.xml`<br><br>
@@ -230,28 +230,24 @@ Explanations for the most important tweaks:
 - `SSAOLevel="x"` <br><br>
 SSAO = Screen Space Ambient Occlusion = a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It adds depth and realism to the scene by simulating the way light interacts with objects, creating soft shadows in crevices and corners where light is occluded. <br><br>
 The values can be: `0`, `1`, `2` or `3`. <br>
-`0`: Disables Ambient Occlusion entirely. This is the only way to fully turn it off when running in DirectX 11 mode, as the in-game settings only allow you to switch between different methods (SSAO, HBAO, HDAO). <br>
-`1`: Sets it to the standard SSAO method (default for current chosen graphics preset). <br>
-`2`: HBAO (Horizon Based Ambient Occlusion) - a more advanced method that provides better visual quality than SSAO, but also has a higher performance cost. It simulates occlusion effects based on the horizon line, resulting in more accurate and detailed shadows. <br>
-`3`: HDAO (High Definition Ambient Occlusion) - the most advanced method, but also the most performance-intensive. It provides the best visual quality by simulating more accurate occlusion effects, but it can significantly impact performance on lower-end hardware. <br><br><br>
+  - `0`: Disables Ambient Occlusion entirely. This is the only way to fully turn it off when running in DirectX 11 mode, as the in-game settings only allow you to switch between different methods (SSAO, HBAO, HDAO). <br>
+  - `1`: Sets it to the standard SSAO method (default for current chosen graphics preset). <br>
+  - `2`: HBAO (Horizon Based Ambient Occlusion) - a more advanced method that provides better visual quality than SSAO, but also has a higher performance cost. It simulates occlusion effects based on the horizon line, resulting in more accurate and detailed shadows. <br>
+  - `3`: HDAO (High Definition Ambient Occlusion) - the most advanced method, but also the most performance-intensive. It provides the best visual quality by simulating more accurate occlusion effects, but it can significantly impact performance on lower-end hardware. <br><br><br>
 
 
 - `D3D11MultithreadedRendering="x"` <br><br>
 Multi-Threaded Rendering = A setting that allows the game to utilize multiple CPU threads for rendering tasks. This can help improve performance by distributing the workload across multiple cores, especially on systems with high core counts. <br><br>
-
 However, it can also introduce instability and cause crashes on some systems, particularly if the game is not optimized for multithreaded rendering or if there are compatibility issues with certain hardware configurations. <br><br>
-
 Although it makes the game run way faster/feel more like a highpaced-FPS, it has caused a lot of random, frequent crashes. Therefore, I recommend `D3D11MultithreadedRendering="0"`<br><br><br>
 
 
 - `DisableMip0Loading="x"` <br><br>
 Disables the loading of the highest quality mipmap level (mip0) for textures. This can help improve performance by reducing the amount of memory used for textures, but it may also result in lower visual quality, especially when viewing objects up close. <br><br>
-
 It can be useful for players with lower-end hardware or those looking to maximize performance, but it may not be ideal for those who prioritize visual fidelity.<br><br><br>
 
 - `AllowAsynchShaderLoading = "x"` <br><br>
 Enables asynchronous loading of shaders, which can help reduce stuttering and improve performance by allowing the game to load shaders in the background while you play. <br><br>
-
 This can be especially beneficial for players with slower storage devices or those who experience frequent stuttering due to shader loading. However, it may also cause some visual glitches or delays in shader loading, so it may not be ideal for all players.<br><br><br>
 
 > [!Note]
@@ -386,7 +382,7 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 > - Decided to not MOD the game, even if some have fixes as well - at least not this time (maybe on the 1.000th playthrough). Main reason: most MODS affect the core gameplay. 
 
 
-<br>
+<br><br>
 
 
 ## I. e. Other tweaks
@@ -399,49 +395,45 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 <!-- ![Media](/FarCry3/media/NVIDIAControlPanel(2).gif)
 <br> -->
 
-- Anisotropic Filtering: 8x
+- Anisotropic Filtering: 8x <br><br>
+Anisotropic Filtering = a texture filtering technique used in 3D graphics to improve the quality of textures on surfaces that are viewed at oblique angles. It works by sampling multiple texels (texture pixels) and applying a weighted average to produce a smoother and more detailed image, especially for textures that are far away or at steep angles. Setting it to 8x can significantly enhance the visual quality of textures, but it may also have a performance impact on lower-end hardware. <br><br><br>
 
-Anisotropic Filtering = a texture filtering technique used in 3D graphics to improve the quality of textures on surfaces that are viewed at oblique angles. It works by sampling multiple texels (texture pixels) and applying a weighted average to produce a smoother and more detailed image, especially for textures that are far away or at steep angles. Setting it to 8x can significantly enhance the visual quality of textures, but it may also have a performance impact on lower-end hardware. <br> <br>
+- Antialiasing - Mode: Ehnance the application setting<br><br>
+Antialiasing = a technique used to reduce the jagged edges (aliasing) that can occur in digital images, especially in 3D graphics. It works by smoothing out the edges of objects, making them appear less pixelated and more visually appealing. Setting it to "Enhance the application setting" allows the game to control the level of anti-aliasing based on its own settings, which can help balance visual quality and performance. <br><br><br>
 
-- Antialiasing - Mode: Ehnance the application setting
+- Max Frame Rate: Use global setting (On) = 165 FPS <br><br>
 
-Antialiasing = a technique used to reduce the jagged edges (aliasing) that can occur in digital images, especially in 3D graphics. It works by smoothing out the edges of objects, making them appear less pixelated and more visually appealing. Setting it to "Enhance the application setting" allows the game to control the level of anti-aliasing based on its own settings, which can help balance visual quality and performance. <br> <br>
+- Monitor Technology: Use global setting (On) = G-SYNC Compatible <br><br>
 
-- Max Frame Rate: Use global setting (On) = 165 FPS <br> <br>
-
-- Monitor Technology: Use global setting (On) = G-SYNC Compatible <br> <br>
-
-- Power management mode: Use global setting (On) = Prefer maximum performance <br> <br>
+- Power management mode: Use global setting (On) = Prefer maximum performance <br><br>
 
 
-- Texture filtering - Anisotropic sample optimization: On
-
-Texture filtering = a technique used to improve the quality of textures when they are viewed at different angles and distances. It helps to reduce blurriness and improve the overall visual quality of textures in 3D graphics. Setting it to "Anisotropic sample optimization: On" can help improve performance by optimizing the way textures are sampled, but it may also result in a slight reduction in visual quality, especially for textures that are viewed at steep angles. <br> <br>
+- Texture filtering - Anisotropic sample optimization: On<br><br>
+Texture filtering = a technique used to improve the quality of textures when they are viewed at different angles and distances. It helps to reduce blurriness and improve the overall visual quality of textures in 3D graphics. Setting it to "Anisotropic sample optimization: On" can help improve performance by optimizing the way textures are sampled, but it may also result in a slight reduction in visual quality, especially for textures that are viewed at steep angles. <br><br><br>
 
 
 
-- Texture filtering - Negative LOD bias: Clamp
+- Texture filtering - Negative LOD bias: Clamp<br><br>
+Negative LOD bias = a setting that controls the level of detail (LOD) bias for textures in 3D graphics. It determines how much the game will favor higher or lower resolution textures when rendering objects at different distances. Setting it to "Clamp" prevents the game from using excessively high-resolution textures that can cause performance issues, while still allowing for some level of detail enhancement. This can help improve performance on lower-end hardware, but it may also result in slightly blurrier textures when viewed up close. <br><br><br>
 
-Negative LOD bias = a setting that controls the level of detail (LOD) bias for textures in 3D graphics. It determines how much the game will favor higher or lower resolution textures when rendering objects at different distances. Setting it to "Clamp" prevents the game from using excessively high-resolution textures that can cause performance issues, while still allowing for some level of detail enhancement. This can help improve performance on lower-end hardware, but it may also result in slightly blurrier textures when viewed up close. <br> <br>
 
-
-- Vertical sync: Fast *(as mentioned above, initially set in [NVIDIA Profile Inspector](#nvidia-profile-inspector))*
-
-Vertical sync = a display option that synchronizes the frame rate of the game with the refresh rate of the monitor to prevent screen tearing. Screen tearing occurs when the graphics card outputs frames at a rate that is not in sync with the monitor's refresh rate, resulting in a disjointed image. Setting VSync to "Fast Sync" allows the game to render at a higher frame rate than the monitor's refresh rate, while still preventing screen tearing. This can help reduce input lag and improve performance, especially on high-refresh-rate monitors. However, it may not be ideal for all players, as it can introduce some visual artifacts and may not work well with certain games or hardware configurations. <br> <br>
+- Vertical sync: Fast *(as mentioned above, initially set in [NVIDIA Profile Inspector](#nvidia-profile-inspector))*<br><br>
+Vertical sync = a display option that synchronizes the frame rate of the game with the refresh rate of the monitor to prevent screen tearing. Screen tearing occurs when the graphics card outputs frames at a rate that is not in sync with the monitor's refresh rate, resulting in a disjointed image. Setting VSync to "Fast Sync" allows the game to render at a higher frame rate than the monitor's refresh rate, while still preventing screen tearing. This can help reduce input lag and improve performance, especially on high-refresh-rate monitors. However, it may not be ideal for all players, as it can introduce some visual artifacts and may not work well with certain games or hardware configurations. <br><br><br>
 
 
 >[!Note]
 > Other tweaks that I have applied to the game, but are not mentioned in this repo, are either not safe for all systems (can cause crashes) or do not have a significant impact on performance and/or visual quality.
 
-<br><br>
+<br><br><br>
 
 # II. Burnout Paradise Remastered
 
 Centralized repository of INFO, MODS, PATCHES and TOOLS for the game Burnout Paradise Remastered (PC version): <br>
 https://github.com/RomulusMirauta/Burnout-Paradise-Remastered
 
+<br>
 
-Applied tweaks and mods:
+The tweaks and mods that made my experience with the game way better, and that I recommend to everyone are:
 - Steam Launch Options: 
 
   ```.launchoptions
