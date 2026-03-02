@@ -94,7 +94,7 @@ Command-line arguments:
 > - Official multiplayer features were disabled in v1.06. <br>
 > - Community Revival (2026): As of February 2026, a dedicated community project via the Far Cry Discord has successfully "revived" the multiplayer. This allows players to access Co-op and Versus modes again, often requiring a small patch or specific files to redirect the game to community-hosted services.
 
-<br>
+
 
 - `-RenderProfile_MaxFPS X` <br>
   Forces the game to render at a maximum of ***X*** FPS.
