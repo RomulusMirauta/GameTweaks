@@ -158,7 +158,7 @@ Tested the game tweaks mentioned in this repo on `W11 v25H2` and PC configuratio
 </table>
 
 
-<br>
+<br><br>
 
 
 ## I. c. Config Files
