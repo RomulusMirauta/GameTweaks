@@ -14,19 +14,19 @@
 
 
 # Table of Contents
-I. &nbsp;&nbsp; [Far Cry 3](#i-far-cry-3) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. a. &nbsp; [Links and Credits](#i-a-links-and-credits) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. b. &nbsp; [Launch Options](#i-b-launch-options) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. c. &nbsp; [Config Files](#i-c-config-files) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. d. &nbsp; [Main Tools and Tweaks](#i-d-main-tools-and-tweaks) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Large Address Aware (TechPowerUp)](#large-address-aware-techpowerup) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. e. &nbsp; [Other tweaks](#i-e-other-tweaks) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Control Panel](#nvidia-control-panel) <br>
-II. &nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; II. a. &nbsp; [Links](#ii-a-links) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; II. b. &nbsp; [Tweaks and Mods](#ii-b-tweaks-and-mods) <br>
+I. &nbsp;&nbsp;&nbsp; [Far Cry 3](#i-far-cry-3) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. a. &nbsp; [Links and Credits](#i-a-links-and-credits) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. b. &nbsp; [Launch Options](#i-b-launch-options) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. c. &nbsp; [Config Files](#i-c-config-files) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. d. &nbsp; [Main Tools and Tweaks](#i-d-main-tools-and-tweaks) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Large Address Aware (TechPowerUp)](#large-address-aware-techpowerup) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. e. &nbsp; [Other Tweaks](#i-e-other-tweaks) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Control Panel](#nvidia-control-panel) <br>
+II. &nbsp;&nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; II. a. &nbsp; [Links](#ii-a-links) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; II. b. &nbsp; [Tweaks and Mods](#ii-b-tweaks-and-mods) <br>
 III. &nbsp; [Mirror's Edge](#iii-mirrors-edge) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; III. a. &nbsp; [Links](#iii-a-links) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; III. b. &nbsp; [Tweaks](#iii-b-tweaks) <br>
@@ -391,7 +391,7 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 <br><br>
 
 
-## I. e. Other tweaks
+## I. e. Other Tweaks
 
 ### NVIDIA Control Panel
 
