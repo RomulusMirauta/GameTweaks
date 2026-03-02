@@ -498,7 +498,6 @@ The tweaks and mods that made my game experience way better, and that I highly r
   - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
   - [NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
 
-
 > [!IMPORTANT]
 > These tweaks and mods also helped stabilizing the game, meaning that random crashes are not happening anymore (even in long-play sessions).
 
@@ -515,7 +514,6 @@ The tweaks and mods that made my game experience way better, and that I highly r
 - https://www.pcgamingwiki.com/wiki/Mirror%27s_Edge
 
 <br>
-
 
 ## III. b. Fixes & Workarounds
 
@@ -538,7 +536,5 @@ The tweaks and mods that made my experience with the game way better, and that I
 
 - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
 
-
 > [!NOTE]
 > These tweaks increased the high-paced feel that the game was meant to have.
-
