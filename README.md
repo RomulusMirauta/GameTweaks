@@ -117,7 +117,7 @@ Command-line arguments:
 
 <br><br>
 
-Tested the game tweaks mentioned in this repo on `W11 v25H2` and PC configuration with the following specs *(and also finished the game, again)*:
+#### Tested the game tweaks mentioned in this repo on `W11 v25H2` and PC configuration with the following specs *(and also finished the game, again)*:
 
 <table>
   <tr>
@@ -476,6 +476,8 @@ https://github.com/RomulusMirauta/Burnout-Paradise-Remastered
 <br>
 
 ## II. b. Tweaks and Mods
+
+<!-- [Tested the game tweaks mentioned in this repo on `W11 v25H2` and PC configuration with the following specs *(and also finished the game, again)*](#-Tested-the-game tweaks mentioned in this repo on W11 v25H2` and PC configuration with the following specs *(and also finished the game, again)*) -->
 
 The tweaks and mods that made my game experience way better, and that I highly recommend:
 - Steam Launch Options: 
