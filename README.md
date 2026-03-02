@@ -65,7 +65,7 @@ II. &nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) <br>
 - https://www.techpowerup.com/forums/threads/large-address-aware.112556/
 
 
-<br>
+<br><br>
 
 
 ## I. b. Launch Options
