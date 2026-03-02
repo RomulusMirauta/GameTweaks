@@ -189,7 +189,8 @@ Purpose: finding the balance - maximizing performance and minimizing stutters/mi
 > [!TIP]
 > VSync can help, but also adds some input lag.
 
-<br>
+
+<br><br>
 
 
 Explanations for the most important tweaks:
