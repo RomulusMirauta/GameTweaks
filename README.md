@@ -70,18 +70,16 @@ II. &nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) <br>
 
 ## I. b. Launch Options
 
-<!-- \GameTweaks\FarCry3\SSs\LaunchOptions.jpg -->
-
-![Launch Options](/FarCry3/media/SteamLaunchOptions(1).gif)
-![Launch Options](/FarCry3/media/SteamLaunchOptions(2).gif)
-
-
-<br>
-
 ```.launchoptions
 -skipintro -offline -RenderProfile_MaxFPS 165
 ```
 
+<br>
+
+![Media](/FarCry3/media/SteamLaunchOptions(1).gif)
+<br>
+
+![Media](/FarCry3/media/SteamLaunchOptions(2).gif)
 <br>
 
 Command-line arguments:
@@ -162,7 +160,11 @@ Tested the game tweaks mentioned in this repo on `W11 25H2` and PC configuration
 
 ## I. c. My Config File
 
-<!-- \GameTweaks\FarCry3\SSs\.jpg -->
+![Media](/FarCry3/media/VSCode(1).png)
+<br>
+
+![Media](/FarCry3/media/VSCode(2).png)
+<br>
 
 Config file location: `%USERPROFILE%\Documents\Far Cry 3\` <br>
 File name: `GamerProfile.xml`
@@ -236,7 +238,11 @@ Enables asynchronous loading of shaders, which can help reduce stuttering and im
 
 ### Large Address Aware (TechPowerUp)
 
-<!-- \GameTweaks\FarCry3\SSs\.jpg -->
+![Media](/FarCry3/media/LargeAddressAware(1).gif)
+<br>
+
+![Media](/FarCry3/media/LargeAddressAware(2).gif)
+<br>
 
 It seems that, by default, the games only uses 2 GB OF RAM ***(even if you have 32+ GB)*** - at least on newer PC configurations and new Windows versions.
 This causes performance issues, and in my case even *frequent* crashes.
@@ -267,7 +273,11 @@ Requirements:
 
 ### Process Lasso (Bitsum)
 
-<!-- \GameTweaks\FarCry3\SSs\.jpg -->
+![Media](/FarCry3/media/ProcessLasso(1).gif)
+<br>
+
+<!-- ![Media](/FarCry3/media/ProcessLasso(2).png) -->
+<!-- <br> -->
 
 It seems that, by default, the games only uses 2 cores (even if your CPU has 24 cores!) - at least on newer PC configurations.
 This causes performance issues, and in my case even *frequent* crashes.
@@ -289,7 +299,11 @@ We can force the game to utilize 4 cores, by following these steps:
 
 ### NVIDIA Profile Inspector
 
-<!-- \GameTweaks\FarCry3\SSs\.jpg -->
+![Media](/FarCry3/media/NVIDIAProfileInspector(1).png)
+<br>
+
+<!-- ![Media](/FarCry3/media/NVIDIAProfileInspector(2).png)
+<br> -->
 
 Tool used for modifying game profiles inside the internal driver database of the NVIDIA driver. All game profiles are provided by the nvidia driver, but you can add your own profiles for games missing in the driver database. You also have access to hidden and undocumented settings, which are not provided by the drivers control panel - nvidiaProfileInspector
 
@@ -327,7 +341,11 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 
 ### NVIDIA Control Panel
 
-<!-- \GameTweaks\FarCry3\SSs\.jpg -->
+![Media](/FarCry3/media/NVIDIAControlPanel(1).gif)
+<br>
+
+![Media](/FarCry3/media/NVIDIAControlPanel(2).gif)
+<br>
 
 - Anisotropic Filtering: 8x
 
