@@ -17,7 +17,7 @@
 I. &nbsp;&nbsp; [Far Cry 3](#i-far-cry-3) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .a. &nbsp; [Links and credits](#i-a-links-and-credits) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .b. &nbsp; [Launch Options](#i-b-launch-options) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .c. &nbsp; [My Config File](#i-c-my-config-file) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .c. &nbsp; [Config Files](#i-c-config-files) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I .d. &nbsp; [Main Tools and Tweaks](#i-d-main-tools-and-tweaks) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Large Address Aware (TechPowerUp)](#large-address-aware-techpowerup) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
@@ -27,7 +27,7 @@ I. &nbsp;&nbsp; [Far Cry 3](#i-far-cry-3) <br>
 II. &nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) <br>
 
 
-<br>
+<br><br>
 
 
 # I. Far Cry 3
@@ -161,7 +161,7 @@ Tested the game tweaks mentioned in this repo on `W11 v25H2` and PC configuratio
 <br>
 
 
-## I. c. My Config File
+## I. c. Config Files
 
 <!-- ![Media](/FarCry3/media/VSCode(1).png)
 <br> -->
@@ -255,7 +255,7 @@ This can be especially beneficial for players with slower storage devices or tho
 > After editing, set it back to "read-only" to prevent accidental changes and alterations made by the game.
 
 
-<br>
+<br><br>
 
 
 ## I. d. Main Tools and Tweaks
@@ -263,7 +263,7 @@ This can be especially beneficial for players with slower storage devices or tho
 ### Large Address Aware (TechPowerUp)
 
 ![Media](/FarCry3/media/LargeAddressAware(1).gif)
-<br>
+<br><br>
 
 <!-- ![Media](/FarCry3/media/LargeAddressAware(2).gif)
 <br> -->
@@ -311,7 +311,7 @@ Requirements:
 ### Process Lasso (Bitsum)
 
 ![Media](/FarCry3/media/ProcessLasso(1).gif)
-<br>
+<br><br>
 
 <!-- ![Media](/FarCry3/media/ProcessLasso(2).png) -->
 <!-- <br> -->
@@ -341,7 +341,7 @@ We can force the game to utilize 4 cores, by following these steps:
 ### NVIDIA Profile Inspector
 
 ![Media](/FarCry3/media/NVIDIAProfileInspector(1).png)
-<br>
+<br><br>
 
 <!-- ![Media](/FarCry3/media/NVIDIAProfileInspector(2).png)
 <br> -->
@@ -390,7 +390,7 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 ### NVIDIA Control Panel
 
 ![Media](/FarCry3/media/NVIDIAControlPanel(1).gif)
-<br>
+<br><br>
 
 <!-- ![Media](/FarCry3/media/NVIDIAControlPanel(2).gif)
 <br> -->
@@ -405,7 +405,7 @@ Antialiasing = a technique used to reduce the jagged edges (aliasing) that can o
 
 - Monitor Technology: Use global setting (On) = G-SYNC Compatible <br><br>
 
-- Power management mode: Use global setting (On) = Prefer maximum performance <br><br>
+- Power management mode: Use global setting (On) = Prefer maximum performance <br><br><br>
 
 
 - Texture filtering - Anisotropic sample optimization: On<br><br>
