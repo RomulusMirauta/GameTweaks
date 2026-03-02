@@ -84,24 +84,27 @@ II. &nbsp; [Burnout Paradise Remastered](#ii-burnout-paradise-remastered) <br>
 
 Command-line arguments:
 
-- `-skipintro` Skips game intro videos.
+- `-skipintro` <br>
+  Skips game intro videos. <br>
 
-- `-offline`  Removes main menu features that are not available anymore: co-op, multiplayer, Uplay.
+- `-offline` <br>
+  Removes main menu features that are not available anymore: co-op, multiplayer, Uplay. <br>
 
-> [!Note]
-> - Official multiplayer features were disabled in v1.06. <br>
-> - Community Revival (2026): As of February 2026, a dedicated community project via the Far Cry Discord has successfully "revived" the multiplayer. This allows players to access Co-op and Versus modes again, often requiring a small patch or specific files to redirect the game to community-hosted services.
-
-
-- `-RenderProfile_MaxFPS X`  Forces the game to render at a maximum of ***X*** FPS.
-
-
-> [!Note]
-> - This method helps eliminate micro stuttering - especially with the DX11 executable - though this may be the result of combining with below-mentioned fixes & tweaks as well.
-> - The game can be rendered and displayed at 165+ FPS (tested myself), but the stutters/microstutters could happen more often and would be way more aggressive (165 to 32 FPS, if below-settings are not applied and if the system is not able to achieve targeted FPS).
-> - This fixed the issue where NPCs shake/twitch randomly.
+  > [!Note]
+  > - Official multiplayer features were disabled in v1.06. <br>
+  > - Community Revival (2026): As of February 2026, a dedicated community project via the Far Cry Discord has successfully "revived" the multiplayer. This allows players to access Co-op and Versus modes again, often requiring a small patch or specific files to redirect the game to community-hosted services.
 
 <br>
+
+- `-RenderProfile_MaxFPS X` <br>
+  Forces the game to render at a maximum of ***X*** FPS.
+
+  > [!Note]
+  > - This method helps eliminate micro stuttering - especially with the DX11 executable - though this may be the result of combining with below-mentioned fixes & tweaks as well.
+  > - The game can be rendered and displayed at 165+ FPS (tested myself), but the stutters/microstutters could happen more often and would be way more aggressive (165 to 32 FPS, if below-settings are not applied and if the system is not able to achieve targeted FPS).
+  > - This fixed the issue where NPCs shake/twitch randomly.
+
+<br><br>
 
 Tested the game tweaks mentioned in this repo on `W11 25H2` and PC configuration with the following specs *(and also finished the game, again)*:
 
