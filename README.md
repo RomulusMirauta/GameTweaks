@@ -480,6 +480,8 @@ https://github.com/RomulusMirauta/Burnout-Paradise-Remastered
 
 Tested the game tweaks and mods mentioned in this repo on `W11 v25H2` and [this PC configuration](#tested-the-game-tweaks-mentioned-in-this-repo-on-w11-v25h2-and-pc-configuration-with-the-following-specs-and-also-finished-the-game-again).
 
+<br>
+
 The tweaks and mods that made my game experience way better, and that I highly recommend:
 - Steam Launch Options: 
 
@@ -497,6 +499,8 @@ The tweaks and mods that made my game experience way better, and that I highly r
   - [Large Address Aware (TechPowerUp)](#large-address-aware-techpowerup) <br>
   - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
   - [NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
+
+<br>
 
 > [!IMPORTANT]
 > These tweaks and mods also helped stabilizing the game, meaning that random crashes are not happening anymore (even in long-play sessions).
@@ -535,6 +539,8 @@ The tweaks and mods that made my experience with the game way better, and that I
   ```
 
 - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
+
+<br>
 
 > [!NOTE]
 > These tweaks increased the high-paced feel that the game was meant to have.
