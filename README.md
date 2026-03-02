@@ -19,11 +19,11 @@ I. [Far Cry 3](#i-far-cry-3) <br>
 &nbsp;&nbsp; I .b. &nbsp; [Launch Options](#i-b-launch-options) <br>
 &nbsp;&nbsp; I .c. &nbsp; [My Config File](#i-c-my-config-file) <br>
 &nbsp;&nbsp; I .d. &nbsp; [Tools and Tweaks](#i-d-tools-and-tweaks) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [- Large Address Aware (TechPowerUp)](#large-address-aware-techpowerup) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [- Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [- NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Large Address Aware (TechPowerUp)](#large-address-aware-techpowerup) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
 &nbsp;&nbsp; I .e. &nbsp; [Other tweaks](#i-e-other-tweaks) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [- NVIDIA Control Panel](#nvidia-control-panel) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [NVIDIA Control Panel](#nvidia-control-panel) <br>
 
 
 # I. Far Cry 3
