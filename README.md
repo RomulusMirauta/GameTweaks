@@ -217,9 +217,9 @@ Explanations for the most important tweaks:
   The values can be: `low`, `medium`, `high`, `veryhigh` or `ultrahigh` (depends on the quality preset you choose in the game settings); if set to `custom`, the blur will remain visible. <br><br>
   
   
-  > [!Note]
-  > This also removes the blur that appears when driving. <br>
-  > Unfortunately, it will not remove the aiming-down sights blur.
+> [!Note]
+> This also removes the blur that appears when driving. <br>
+> Unfortunately, it will not remove the aiming-down sights blur.
 
 
 <br><br>
