@@ -477,7 +477,7 @@ https://github.com/RomulusMirauta/Burnout-Paradise-Remastered
 
 ## II. b. Tweaks and Mods
 
-<!-- [Tested the game tweaks mentioned in this repo on `W11 v25H2` and PC configuration with the following specs *(and also finished the game, again)*](#-Tested-the-game tweaks mentioned in this repo on W11 v25H2` and PC configuration with the following specs *(and also finished the game, again)*) -->
+Tested the game tweaks and mods mentioned in this repo on `W11 v25H2` and [this PC configuration](#tested-the-game-tweaks-mentioned-in-this-repo-on-w11-v25h2-and-pc-configuration-with-the-following-specs-and-also-finished-the-game-again).
 
 The tweaks and mods that made my game experience way better, and that I highly recommend:
 - Steam Launch Options: 
@@ -498,6 +498,10 @@ The tweaks and mods that made my game experience way better, and that I highly r
   - [NVIDIA Profile Inspector](#nvidia-profile-inspector) <br>
 
 
+> [!IMPORTANT]
+> These tweaks and mods also helped stabilizing the game, meaning that random crashes are not happening anymore (even in long-play sessions).
+
+
 
 <br><br><br>
 
@@ -513,6 +517,8 @@ The tweaks and mods that made my game experience way better, and that I highly r
 
 ## III. b. Tweaks
 
+Tested the game tweaks mentioned in this repo on `W11 v25H2` and [this PC configuration](#tested-the-game-tweaks-mentioned-in-this-repo-on-w11-v25h2-and-pc-configuration-with-the-following-specs-and-also-finished-the-game-again).
+
 The tweaks and mods that made my experience with the game way better, and that I recommend to everyone are:
 - Steam Launch Options: 
 
@@ -521,3 +527,8 @@ The tweaks and mods that made my experience with the game way better, and that I
   ```
 
 - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
+
+
+> [!NOTE]
+> These tweaks increased the high-paced feel that the game was meant to have.
+
