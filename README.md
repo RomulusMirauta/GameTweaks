@@ -284,6 +284,9 @@ This can be especially beneficial for players with slower storage devices or tho
 <!-- ![Media](/FarCry3/media/LargeAddressAware(3).gif)
 <br> -->
 
+![Media](/FarCry3/media/LargeAddressAware(4).gif)
+<br><br>
+
 It seems that, by default, the games only uses 2 GB OF RAM ***(even if you have 32+ GB)*** - at least on newer PC configurations and new Windows versions.
 This causes performance issues and, in my case, even *frequent* crashes.
 
