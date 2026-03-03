@@ -88,9 +88,6 @@ III. &nbsp; [Mirror's Edge](#iii-mirrors-edge) <br>
 
 <br>
 
-<!-- ![Media](/FarCry3/media/SteamLaunchOptions(1).gif)
-<br> -->
-
 ![Media](/FarCry3/media/SteamLaunchOptions(2).gif)
 <br><br>
 
@@ -174,9 +171,6 @@ Command-line arguments:
 
 
 ## I. c. Config Files
-
-<!-- ![Media](/FarCry3/media/VSCode(1).png)
-<br> -->
 
 ![Media](/FarCry3/media/VSCode(2).png)
 <br><br>
@@ -275,15 +269,6 @@ This can be especially beneficial for players with slower storage devices or tho
 
 ### Large Address Aware (TechPowerUp)
 
-<!-- ![Media](/FarCry3/media/LargeAddressAware(1).gif)
-<br><br> -->
-
-<!-- ![Media](/FarCry3/media/LargeAddressAware(2).gif)
-<br> -->
-
-<!-- ![Media](/FarCry3/media/LargeAddressAware(3).gif)
-<br> -->
-
 ![Media](/FarCry3/media/LargeAddressAware(4).gif)
 <br><br>
 
@@ -329,9 +314,6 @@ Requirements:
 ![Media](/FarCry3/media/ProcessLasso(1).gif)
 <br><br>
 
-<!-- ![Media](/FarCry3/media/ProcessLasso(2).png) -->
-<!-- <br> -->
-
 It seems that, by default, the games only uses 2 cores (even if your CPU has 24 cores!) - at least on newer PC configurations.
 This causes performance issues, and in my case even *frequent* crashes.
 
@@ -358,9 +340,6 @@ We can force the game to utilize 4 cores, by following these steps:
 
 ![Media](/FarCry3/media/NVIDIAProfileInspector(1).png)
 <br><br>
-
-<!-- ![Media](/FarCry3/media/NVIDIAProfileInspector(2).png)
-<br> -->
 
 This tool is used for modifying game profiles inside the internal driver database of the NVIDIA driver. All game profiles are provided by the nvidia driver, but you can add your own profiles for games missing in the driver database. You also have access to hidden and undocumented settings, which are not provided by the drivers control panel.
 
@@ -404,12 +383,6 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 ## I. e. Other Tweaks
 
 ### NVIDIA Control Panel
-
-<!-- ![Media](/FarCry3/media/NVIDIAControlPanel(1).gif)
-<br><br> -->
-
-<!-- ![Media](/FarCry3/media/NVIDIAControlPanel(2).gif)
-<br> -->
 
 ![Media](/FarCry3/media/NVIDIAControlPanel(3).gif)
 <br><br>
