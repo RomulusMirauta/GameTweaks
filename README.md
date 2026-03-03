@@ -518,6 +518,7 @@ The tweaks and mods that made my experience with the game way better, and that I
   ```
 
 - [Process Lasso (Bitsum)](#process-lasso-bitsum) <br>
+- [Large Address Aware (TechPowerUp)](#large-address-aware-techpowerup) <br>
 
 <br>
 
