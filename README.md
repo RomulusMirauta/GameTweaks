@@ -275,8 +275,8 @@ This can be especially beneficial for players with slower storage devices or tho
 
 ### Large Address Aware (TechPowerUp)
 
-![Media](/FarCry3/media/LargeAddressAware(1).gif)
-<br><br>
+<!-- ![Media](/FarCry3/media/LargeAddressAware(1).gif)
+<br><br> -->
 
 <!-- ![Media](/FarCry3/media/LargeAddressAware(2).gif)
 <br> -->
@@ -410,6 +410,9 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 
 <!-- ![Media](/FarCry3/media/NVIDIAControlPanel(2).gif)
 <br> -->
+
+![Media](/FarCry3/media/NVIDIAControlPanel(3).gif)
+<br><br>
 
 - Anisotropic Filtering: 8x <br><br>
 Anisotropic filtering is a texture filtering technique used in 3D graphics to improve the quality of textures on surfaces that are viewed at oblique angles. <br><br>
