@@ -405,8 +405,8 @@ Interesting info: Fast Sync was not a selectable option in NVIDIA Control Panel,
 
 ### NVIDIA Control Panel
 
-![Media](/FarCry3/media/NVIDIAControlPanel(1).gif)
-<br><br>
+<!-- ![Media](/FarCry3/media/NVIDIAControlPanel(1).gif)
+<br><br> -->
 
 <!-- ![Media](/FarCry3/media/NVIDIAControlPanel(2).gif)
 <br> -->
