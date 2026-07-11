@@ -31,6 +31,10 @@ III. &nbsp; [Mirror's Edge](#iii-mirrors-edge) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; III. a. &nbsp; [Links](#iii-a-links) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; III. b. &nbsp; [Fixes & Workarounds](#iii-b-fixes--workarounds) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; III. c. &nbsp; [Tweaks](#iii-c-tweaks) <br>
+IV. &nbsp; [DOOM 3: BFG Edition](#iv-doom-3-bfg-edition) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IV. a. &nbsp; [Links](#iv-a-links) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IV. b. &nbsp; [Fixes & Workarounds](#iv-b-fixes--workarounds***) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IV. c. &nbsp; [Tweaks](#iv-c-tweaks) <br>
 
 
 <br><br>
@@ -524,3 +528,30 @@ The tweaks and mods that made my experience with the game way better, and that I
 
 > [!NOTE]
 > These tweaks increased the high-paced feel that the game was meant to have.
+
+
+
+<br><br><br>
+
+
+# IV. DOOM 3: BFG Edition
+
+## IV. a. Links
+- https://store.steampowered.com/app/208200/DOOM_3/
+- https://www.pcgamingwiki.com/wiki/Doom_3:_BFG_Edition
+
+<br>
+
+## IV. b. Fixes & Workarounds
+
+If the game keeps starting/running on your secondary monitor: https://steamcommunity.com/app/208200/discussions/0/864949037778285733/
+
+<br>
+
+## IV. c. Tweaks
+
+Steam Launch Options: 
+
+  ```.launchoptions
+  +set com_skipintrovideos 1 +set r_maxAnisotropicFiltering 16 +set com_allowConsole 0
+  ```
